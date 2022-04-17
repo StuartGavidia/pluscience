@@ -18,6 +18,7 @@ export default function Problem({problem}){
                 id: i,
             }
         })))
+        setSubmit(false)
     }, [problem.choices])
 
     function toggleSelected(id){
