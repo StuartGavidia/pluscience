@@ -1,0 +1,31 @@
+.unit {
+    height: 16rem;
+    width: 16rem;
+    position: relative;
+    padding: 0.2rem;
+}
+
+.unit-img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.unit-title {
+    color: black;
+}
+
+.unit-name {
+    color: black;
+}
+
+.unit-bio {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    border-radius: 0.2rem;
+}
+
+.mar {
+    margin-left: 0.4rem;
+}

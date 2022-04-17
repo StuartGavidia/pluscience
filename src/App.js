@@ -1,24 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react'
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import Header from './Components/Header/Header'
+import HomePage from './Pages/HomePage/HomePage'
+import ContactPage from './Pages/ContactPage/ContactPage'
+import UnitPage from './Pages/UnitPage/UnitPage'
+import ProblemPage from './Pages/ProblemPage/ProblemPage'
 
 function App() {
+
+  //Todo
+  //Learn Redux so you can manage the data from within the store
+  //For now you are importing data to every component that needs it
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Header />
+        <Switch>
+          <Route path="/Learn/:subject">
+            <UnitPage />
+          </Route>
+          <Route path="/Learn">
+            <HomePage />
+          </Route>
+          <Route path="/Contact">
+            <ContactPage />
+          </Route>
+        </Switch>
+        <Route exact path="/Learn/:subject/:unit">
+          <ProblemPage />
+        </Route>
+    </Router>
   );
 }
 

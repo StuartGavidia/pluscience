@@ -1,0 +1,22 @@
+.subject {
+    height: 16rem;
+    width: 16rem;
+    position: relative;
+    color: white;
+}
+
+.subject-img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.subject-title {
+    margin-top: 0;
+    margin-left: 0.4rem;
+}
+
+.subject-description {
+    margin-left: 0.4rem;
+}
