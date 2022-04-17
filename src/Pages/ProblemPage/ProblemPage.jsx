@@ -2,6 +2,7 @@ import React, { useEffect, useState} from 'react'
 import { useParams } from 'react-router-dom'
 import { data } from '../../data'
 import Problem from "../../Components/Problem/Problem"
+import './ProblemPage.css'
 
 export default function ProblemPage(){
 
@@ -17,7 +18,7 @@ export default function ProblemPage(){
     }, [unit, subject])
 
     return (
-        <div>
+        <div className="problemPage">
             <h2>Background</h2>
             <p>{practice.background}</p>
             {practice.problemsList ? practice.problemsList.map(problem => <Problem problem={problem}/>) : <p>Loading</p>}

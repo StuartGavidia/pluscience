@@ -1,12 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import Choice from '../Choice/Choice'
+import "./Problem.css"
 
 export default function Problem({problem}){
-    
-    //problem
-    //question
-    //choices
-    //correct
 
     const [submit, setSubmit] = useState(false)
 
@@ -39,11 +35,11 @@ export default function Problem({problem}){
     }
 
     return (
-        <div>
-            <h2>Problem {problem.problem}</h2>
-            <h3>{problem.question}</h3>
+        <div className="problem">
+            <h2 className="problem-title">Problem {problem.problem}</h2>
+            <h3 className="problem-question">{problem.question}</h3>
             {choices.map(choice => <Choice choice={choice} toggleSelected={toggleSelected} submitted={submit} correct={problem.correct}/>)}
-            <button type="submit" onClick={handleSubmit}>Submit Answer</button>
+            <button className="problem-button" type="submit" onClick={handleSubmit}>Check Answer</button>
         </div>
     )
 }

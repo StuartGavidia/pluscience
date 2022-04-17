@@ -1,0 +1,22 @@
+.problem {
+    padding: 0.3rem;
+    text-align: center;
+    position: relative;
+}
+
+.problem-button {
+    color: black;
+    background-color: white;
+    border-radius: 0.5rem;
+    height: 2rem;
+    width: 7rem;
+    margin-top: 0.4rem;
+}
+
+.problem-question {
+    position: relative;
+}
+
+.problem-title {
+    position: relative;
+}
