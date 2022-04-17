@@ -14,20 +14,20 @@ export const data = {
                         {
                             problem: 1,
                             question: "What is 2 + 2",
-                            choices: [4, 9, 4, 6],
-                            correct: 4
+                            choices: [79, 9, 22, 6],
+                            correct: 6
                         },
                         {
                             problem: 2,
                             question: "What is 2 + 2",
-                            choices: [4, 9, 4, 6],
+                            choices: [4, 9, 19, 6],
                             correct: 4
                         },
                         {
                             problem: 3,
                             question: "What is 2 + 2",
-                            choices: [4, 9, 4, 6],
-                            correct: 4
+                            choices: [2, 9, 4, 7],
+                            correct: 9
                         },
                     ],
                     conclusion: "Hope you had fun!"

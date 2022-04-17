@@ -12,7 +12,6 @@ export default function ProblemPage(){
     useEffect(() => {
         setPractice(() => {
             const value = data[subject].info.filter(currentUnit => currentUnit.nameLink === unit)
-            console.log(value)
             return value[0].practiceProblems
         })
     }, [unit, subject])
