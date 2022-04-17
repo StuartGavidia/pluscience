@@ -18,7 +18,7 @@ export default function Problem({problem}){
                 id: i,
             }
         })))
-    }, [])
+    }, [problem.choices])
 
     function toggleSelected(id){
         setChoices(prev => {
