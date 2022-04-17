@@ -5,9 +5,9 @@ import { NavLink } from 'react-router-dom'
 export default function Header() {
     return (
         <header className="header">
-            <h1>Welcome to PLU Science!</h1>
-            <NavLink to="/Learn">Learn</NavLink>
-            <NavLink to="/Contact">Contact</NavLink>
+            <NavLink exact to="/" activeClassName="header-link-active" className="header-link">Home</NavLink>
+            <NavLink to="/Learn" activeClassName="header-link-active" className="header-link">Learn</NavLink>
+            <NavLink exact to="/Contact" activeClassName="header-link-active" className="header-link">Contact</NavLink>
         </header>
     )
 }

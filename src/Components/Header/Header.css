@@ -1,7 +1,27 @@
 .header {
     display: flex;
+    justify-content: center;
+    gap: 4rem;
     height: 5rem;
-    background-color: #6495ED;
+    background-color: #00008B;
     align-items: center;
     color: white;
+}
+
+.header-link {
+    border: 1px solid black;
+    border-radius: 1rem;
+    height: 2.5rem;
+    width: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+
+.header-link-active {
+    background-color: #2b2bdf;
+    color: white;
+    border: 1px solid white;
 }

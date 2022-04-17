@@ -6,6 +6,7 @@ import HomePage from './Pages/HomePage/HomePage'
 import ContactPage from './Pages/ContactPage/ContactPage'
 import UnitPage from './Pages/UnitPage/UnitPage'
 import ProblemPage from './Pages/ProblemPage/ProblemPage'
+import IntroPage from './Pages/IntroPage/IntroPage'
 
 function App() {
 
@@ -25,6 +26,9 @@ function App() {
           </Route>
           <Route path="/Contact">
             <ContactPage />
+          </Route>
+          <Route path="/">
+            <IntroPage />
           </Route>
         </Switch>
         <Route exact path="/Learn/:subject/:unit">

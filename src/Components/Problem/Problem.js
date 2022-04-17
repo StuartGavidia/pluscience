@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Choice from '../Choice/Choice'
 
 export default function Problem({problem}){
+    
     //problem
     //question
     //choices
