@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import "./Choice.css"
 
 export default function Choice({correct, submitted, choice, toggleSelected}) {
