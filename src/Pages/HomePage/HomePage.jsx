@@ -1,11 +1,12 @@
-import React, { useState, useEffect } from "react"
+import React from "react"
 import "./HomePage.css"
 import Subject from '../../Components/Subject/Subject'
 import { Link } from 'react-router-dom'
 import { data } from '../../data'
 
 export default function HomePage() {
-    const [subjects, setSubjects] = useState(Object.keys(data))
+
+    const subjects = Object.keys(data)
     
     return (
         <div className="subjects">
