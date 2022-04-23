@@ -1,11 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./ContactPage.css"
+import ContactForm from '../../Components/ContactForm/ContactForm'
 
 export default function ContactPage() {
+
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("")
+    const [description, setDescription] = useState("")
+
     return (
-        <div>
-            <h1>Contact me</h1>
-            <p>Email: gavidisa@plu.edu</p>
-        </div>
+        <ContactForm 
+            name={name}
+            setName={setName}
+            email={email}
+            setEmail={setEmail}
+            description={description}
+            setDescription={setDescription}
+        />
     )
 }
