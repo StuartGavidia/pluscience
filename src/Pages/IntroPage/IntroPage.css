@@ -1,9 +1,38 @@
 .intro {
-    background-color: rgb(106, 192, 241);
-    width: 80%;
-    height: 15rem;
-    margin: 2rem auto;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 30rem;
     border-radius: 0.5rem;
     color: black;
     font-size: 1.5rem
+}
+
+.intro-banner {
+    background-image: url("../../../public/Assets/Images/banner.jpg");
+    background-size: cover;
+    height: 40rem;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.intro-banner-text {
+    text-align: center;
+    width: 40%;
+    margin-left: 5rem;
+}
+
+.intro-information {
+    border: 1px solid #5CE0FB;
+    border-radius: 0.5rem;
+    width: 90%;
+    height: 30rem;
+    background-color: white;
+    margin: 2rem auto;
+}
+
+::marker {
+    color: lightblue;
 }

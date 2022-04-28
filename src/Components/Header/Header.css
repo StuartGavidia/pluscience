@@ -3,13 +3,13 @@
     justify-content: center;
     gap: 4rem;
     height: 5rem;
-    background-color: #00008B;
+    background-color: white;
     align-items: center;
     color: white;
 }
 
 .header-link {
-    border: 1px solid black;
+    border: 1px solid lightblue;
     border-radius: 1rem;
     height: 2.5rem;
     width: 6rem;
@@ -17,12 +17,12 @@
     justify-content: center;
     align-items: center;
     background-color: white;
-    color: black;
+    color: lightblue;
     text-decoration: none;
 }
 
 .header-link-active {
-    background-color: #2b2bdf;
+    background-color: #5CE0FB;
     color: white;
-    border: 1px solid white;
+    border: 1px solid whitesmoke;
 }
