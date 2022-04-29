@@ -1,6 +1,22 @@
 .problemPage {
-    background-color: #00008B;
-    color: white;
+    background-color: whitesmoke;
+    color: black;
     text-align: center;
     border: 1px solid black
+}
+
+.problemPage-background {
+    height: 18rem;
+    border: 1px solid lightblue;
+    width: 80%;
+    margin: 2rem auto;
+    background-color: white;
+}
+
+.problemPage-conclusion {
+    height: 18rem;
+    border: 1px solid lightblue;
+    width: 80%;
+    margin: 2rem auto;
+    background-color: white;
 }

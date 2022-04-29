@@ -19,11 +19,15 @@ export default function ProblemPage(){
 
     return (
         <div className="problemPage">
-            <h2>Background</h2>
-            <p>{practice.background}</p>
+            <div className="problemPage-background">
+                <h2>Background</h2>
+                <p>{practice.background}</p>
+            </div>
             {practice.problemsList ? practice.problemsList.map(problem => <Problem problem={problem}/>) : <p>Loading</p>}
-            <h2>Conclusion</h2>
-            <p>{practice.conclusion}</p>
+            <div className="problemPage-conclusion">
+                <h2>Conclusion</h2>
+                <p>{practice.conclusion}</p>
+            </div>
         </div>
     )
 }
