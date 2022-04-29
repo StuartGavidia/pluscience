@@ -15,7 +15,7 @@ export default function UnitPage() {
 
     return (
         <div className="unitPage">
-            {units.map(currentUnit => <Link className="unitPage-unit" to={`/Learn/Chem/${currentUnit.nameLink}`}><Unit 
+            {units.map(currentUnit => <Link className="unitPage-unit" to={`/Learn/Chem/${currentUnit.nameLink}/section1`}><Unit 
                                         unit={currentUnit.unit} 
                                         name={currentUnit.name}
                                         bio={currentUnit.bio}

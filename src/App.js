@@ -19,7 +19,7 @@ function App() {
     <Router>
       <Header />
         <Switch>
-          <Route path="/Learn/:subject/:unit">
+          <Route exact path="/Learn/:subject/:unit/:section">
             <ProblemPage />
           </Route>
           <Route path="/Learn/:subject">

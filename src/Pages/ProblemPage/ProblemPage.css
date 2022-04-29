@@ -20,3 +20,20 @@
     margin: 2rem auto;
     background-color: white;
 }
+
+.problemPage-switch {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 4rem;
+}
+
+.problemPage-switch .button {
+    height: 2rem;
+    width: 6rem;
+    border-radius: 2rem;
+    background-color: white;
+    margin-bottom: 2rem;
+    border: 1px solid lightblue;
+    color: lightblue;
+    cursor: pointer;
+}
