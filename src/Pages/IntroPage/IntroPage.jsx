@@ -10,7 +10,7 @@ export default function IntroPage(){
 
         const key = "97b866a027964a528bc15641222904";
         const city = "Tacoma"
-        const baseUrl = "http://api.weatherapi.com/v1"
+        const baseUrl = "https://api.weatherapi.com/v1"
         const method = "/current.json"
         const alert = "yes"
     
