@@ -9,13 +9,15 @@ export default function ContactPage() {
     const [description, setDescription] = useState("")
 
     return (
-        <ContactForm 
-            name={name}
-            setName={setName}
-            email={email}
-            setEmail={setEmail}
-            description={description}
-            setDescription={setDescription}
-        />
+        <div className="contact">
+            <ContactForm 
+                name={name}
+                setName={setName}
+                email={email}
+                setEmail={setEmail}
+                description={description}
+                setDescription={setDescription}
+            />
+        </div>
     )
 }

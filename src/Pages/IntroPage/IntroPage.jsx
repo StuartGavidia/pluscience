@@ -59,7 +59,6 @@ export default function IntroPage(){
                     </ul>
                 </div>
             </div>
-            
         </div>
     )
 }

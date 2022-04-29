@@ -7,6 +7,7 @@ import ContactPage from './Pages/ContactPage/ContactPage'
 import UnitPage from './Pages/UnitPage/UnitPage'
 import ProblemPage from './Pages/ProblemPage/ProblemPage'
 import IntroPage from './Pages/IntroPage/IntroPage'
+import Footer from './Components/Footer/Footer'
 
 function App() {
 
@@ -18,6 +19,9 @@ function App() {
     <Router>
       <Header />
         <Switch>
+          <Route path="/Learn/:subject/:unit">
+            <ProblemPage />
+          </Route>
           <Route path="/Learn/:subject">
             <UnitPage />
           </Route>
@@ -31,9 +35,7 @@ function App() {
             <IntroPage />
           </Route>
         </Switch>
-        <Route exact path="/Learn/:subject/:unit">
-          <ProblemPage />
-        </Route>
+        <Footer />
     </Router>
   );
 }

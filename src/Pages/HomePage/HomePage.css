@@ -1,6 +1,7 @@
 .subjects {
     display: flex;
     padding: 4rem;
+    min-height: 50rem;
 }
 
 .subjects-link {
