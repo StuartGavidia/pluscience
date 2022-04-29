@@ -4,7 +4,7 @@
     height: 30rem;
     border-radius: 0.5rem;
     color: black;
-    font-size: 1.5rem
+    font-size: 1.5rem;
 }
 
 .intro-banner {
@@ -31,6 +31,26 @@
     height: 30rem;
     background-color: white;
     margin: 2rem auto;
+}
+
+.intro-plu {
+    height: 40rem;
+    width: 90%;
+    border: 1px solid black;
+    margin: 4rem auto;
+    background-image: url("../../../public/Assets/Images/plu.png");
+    background-size: cover;
+}
+
+.intro-plu-info {
+    text-align: center;
+    font-size: 12px;
+    width: 30%;
+    height: 40%;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-left: 10%;
+    margin-top: 10%;
+    border-radius: 0.5rem;
 }
 
 ::marker {
