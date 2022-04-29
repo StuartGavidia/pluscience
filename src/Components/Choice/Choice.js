@@ -5,9 +5,9 @@ export default function Choice({correct, submitted, choice, toggleSelected}) {
 
     let styles = {}
     if(submitted){
-        styles = {backgroundColor: choice.choice === correct ? "lightgreen" : "red"}
+        styles = {backgroundColor: choice.choice === correct ? "lightgreen" : "#f22222"}
     } else {
-        styles = {backgroundColor: choice.selected ? "grey" : "white"}
+        styles = {backgroundColor: choice.selected ? "lightgrey" : "white"}
     }
 
     function handleClick() {
