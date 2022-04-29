@@ -3,7 +3,7 @@ import './Footer.css'
 
 export default function Footer(){
     return (
-        <div class="footer">
+        <div className="footer">
             <div>
                 <h1>PLU Learn</h1>
             </div>
