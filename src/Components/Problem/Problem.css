@@ -30,3 +30,20 @@
 .problem-title {
     position: relative;
 }
+
+.problem-references {
+    background-color: white;
+    height: 5.5rem;
+    width: 50%;
+    margin: 0.5rem auto;
+    border-radius: 0.1rem;
+}
+
+.extend {
+    height: 37rem;
+}
+
+.problem-references-reference {
+    text-decoration: none;
+    color: blue
+}
