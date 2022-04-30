@@ -18,6 +18,7 @@ export default function Problem({problem}){
             }
         })))
         setSubmit(false)
+        setShowReferences(false)
     }, [problem.choices])
 
     function toggleSelected(id){
@@ -52,7 +53,7 @@ export default function Problem({problem}){
             <div className="problem-references">
                 <ul>
                     {problem.references.map(reference => {
-                        return <li><a className="problem-references-reference" href={reference} target="_blank" rel="noreferrer">{reference}</a></li>
+                        return <li><a className="problem-references-reference" href={reference} target="_blank" rel="noreferrer noopener">{reference}</a></li>
                     })}
                 </ul>
             </div>
