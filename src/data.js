@@ -16,7 +16,8 @@ export const data = {
                             problem: 1,
                             question: "List all the types of IMFs that occur in CH3CF3",
                             choices: ["Dispersion, Dipole-Dipole, Ion-Dipole", "Dispersion", "Dispersion, Dipole-Dipole", "Dipole-Dipole"],
-                            correct: "Dispersion, Dipole-Dipole"
+                            correct: "Dispersion, Dipole-Dipole",
+                            references: ["https://www.google.com", "yahoo.com"]
                         }
                         ],
                         section2: [
@@ -24,7 +25,8 @@ export const data = {
                                 problem: 1,
                                 question: "Which group of species can form hydrogen bonds in its pure form?",
                                 choices: ["CH3OCH3", "KCl, CH3NH2", "C2H6, CH3CH2CH2OH", "CH3NH2, CH3CH2CH2OH"],
-                                correct: "CH3NH2, CH3CH2CH2OH"
+                                correct: "CH3NH2, CH3CH2CH2OH",
+                                references: ["https://www.google.com", "yahoo.com"]
                             }
                         ],
                         section3: [
@@ -32,7 +34,8 @@ export const data = {
                                 problem: 1,
                                 question: "What is the name of the process from solid to gas?",
                                 choices: ["Melting/Fusion", "Sublimation", "Deposition", "Condensation"],
-                                correct: "Sublimation"
+                                correct: "Sublimation",
+                                references: ["https://www.google.com", "yahoo.com"]
                             }
                         ]
                     },
@@ -54,7 +57,8 @@ export const data = {
                             problem: 1,
                             question: "Given the reaction F2(g) + 2ClO2(g) -> 2FClO2(g). What is the rate law for the reaction?",
                             choices: ["k[ClO2]^2", "k[ClO2][F2]", "k[ClO2]^2[F2]", "k[F2][ClO2]"],
-                            correct: "k[F2][ClO2]"
+                            correct: "k[F2][ClO2]",
+                            references: ["https://www.google.com", "yahoo.com"]
                         }
                     ],
                     section2: [
@@ -62,7 +66,8 @@ export const data = {
                             problem: 2,
                             question: "If the reaction 2HI -> H2 + I2 is second order, which of the following will yield a linear plot?",
                             choices: ["log[HI] vs time", "[HI]^2 vs time", "ln[HI] vs time", "1/[HI] vs time"],
-                            correct: "ln[HI] vs time"
+                            correct: "ln[HI] vs time",
+                            references: ["https://www.google.com", "yahoo.com"]
                         }
                     ],
                     section3: [
@@ -70,7 +75,8 @@ export const data = {
                             problem: 3,
                             question: "For the reaction A + 3B -> 2C, how does the rate of disappearance of B compare to the rate of production of C?",
                             choices: ["the rate of disappearance of B is 1/2 the rate of appearance of C", "the rate of disappearance of B is 3/2 the rate of the appearance of C", "the rate of disappearance of B is 2/3 the rate of appearance of C", "the rate of disappearance of B is 1/3 the rate of appearance of C"],
-                            correct: "the rate of disappearance of B is 3/2 the rate of the appearance of C"
+                            correct: "the rate of disappearance of B is 3/2 the rate of the appearance of C",
+                            references: ["https://www.google.com", "yahoo.com"]
                         }
                     ],
                     },
@@ -92,7 +98,8 @@ export const data = {
                                 problem: 1,
                                 question: "For the reaction 2CO(g) + O2(g) -> 2CO2(g), what is the equilibrium expression?",
                                 choices: ["[CO2]^2 / [CO]^2[O2]", "[CO]^2[O2] / [CO2]^2", "[CO2] / [CO]^2[O2]", "[CO2]^2"],
-                                correct: "[CO2]^2 / [CO]^2[O2]"
+                                correct: "[CO2]^2 / [CO]^2[O2]",
+                                references: ["https://www.google.com", "yahoo.com"]
                             }
                         ],
                         section2: [
@@ -100,7 +107,8 @@ export const data = {
                                 problem: 2,
                                 question: "For the reaction SnO2(s) + 2CO(g) <-> Sn(s) + 2CO2(g) with CO2 = 2.0M and CO = 2.0M. Find K and determine whether the reaction favors products or reactants.",
                                 choices: ["K = 2.0, products", "K = 1.0 products = reactants", "K = 4.0 products", "K = 0.5, reactants"],
-                                correct: "K = 1.0 products = reactants"
+                                correct: "K = 1.0 products = reactants",
+                                references: ["https://www.google.com", "yahoo.com"]
                             }
                         ],
                         section3: [
@@ -108,7 +116,8 @@ export const data = {
                                 problem: 3,
                                 question: "For the reaction PCl5(g) <-> PCl3(g) + Cl2(g), predict what will happen when the reaction volume is decreased",
                                 choices: ["the reaction will shift towards the reactants", "the reaction will shift towars the products", "the reaction will not be affected", "the reaction will go all the way towards the reactants until completion"],
-                                correct: "the reaction will shift towards the reactants"
+                                correct: "the reaction will shift towards the reactants",
+                                references: ["https://www.google.com", "yahoo.com"]
                             }
                         ]
                     },
@@ -130,7 +139,8 @@ export const data = {
                             problem: 1,
                             question: "What is the pH of a blood sample with a 7.2 x 10^-8 M of H+?",
                             choices: [0.015, 0.0013, 0.027, 0.0055],
-                            correct: 0.0013
+                            correct: 0.0013,
+                            references: ["https://www.google.com", "yahoo.com"]
                         }
                     ],
                     section2: [
@@ -138,7 +148,8 @@ export const data = {
                             problem: 2,
                             question: "What is the pH of 0.2 M lithium acetate if the pKb is 9.3?",
                             choices: [2.0, 10.4, 3.7, 9.0],
-                            correct: 9.0
+                            correct: 9.0,
+                            references: ["https://www.google.com", "yahoo.com"]
                         }
                     ],
                     section3: [
@@ -146,7 +157,8 @@ export const data = {
                             problem: 3,
                             question: "What concentration of HOCl (Ka = 3.5 x 10^-8) has the same pH as that of 2.50 x 10^-4 M HNO3?",
                             choices: ["1.8 M", "6.8 x 10^-8 M", "3.93 M", "3.5 x 10^-2 M"],
-                            correct: "1.8 M"
+                            correct: "1.8 M",
+                            references: ["https://www.google.com", "yahoo.com"]
                         }
                     ]
                     },
@@ -168,7 +180,8 @@ export const data = {
                             problem: 1,
                             question: "If it takes 54 mL of 0.1 M of NaOH to neutralize 125 mL of an HCL solution, what is the concentration of the HCL?",
                             choices: ["3.99 x 10^-3 M HCl", "4.32 x 10^-2 M HCl", "0.09M HCl", "9.32 x 10^-4 M HCl"],
-                            correct: "4.32 x 10^-2 M HCl"
+                            correct: "4.32 x 10^-2 M HCl",
+                            references: ["https://www.google.com", "yahoo.com"]
                         }
                     ],
                     section2: [
@@ -176,7 +189,8 @@ export const data = {
                             problem: 2,
                             question: "The solubility of magnesium hydroxide (Ksp = 8.0 x 10^-12) in a buffered solution of pH = 11.00 would be",
                             choices: ["1.0 x 10^-11 M", "8.0 x 10^10 M", "8.0 x 10^-12", "8.0 x 10^-6 M"],
-                            correct: "8.0 x 10^-6 M"
+                            correct: "8.0 x 10^-6 M",
+                            references: ["https://www.google.com", "yahoo.com"]
                         }
                     ],
                     section3: [
@@ -184,7 +198,8 @@ export const data = {
                             problem: 3,
                             question: "A solution of 30mL of 0.1M NH3(aq) has 0.1M HCl added until it reaches an equivalence point. What pH will the solution be at this point?",
                             choices: [9.44, 3.63, 5.28, 2.11],
-                            correct: 5.28
+                            correct: 5.28,
+                            references: ["https://www.google.com", "yahoo.com"]
                         }
                     ]
                     },
