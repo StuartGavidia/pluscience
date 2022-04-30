@@ -55,7 +55,7 @@ export default function IntroPage(){
                     <ul>
                         <li>Adding other subjects</li>
                         <li>Adding Functionality to Contact Page</li>
-                        <li>Add own sections to practice problems</li>
+                        <li>Add Play section with games</li>
                     </ul>
                 </div>
             </div>

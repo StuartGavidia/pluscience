@@ -19,6 +19,7 @@ The application should run in a browser
 - Will extend to other subjects
 - Use media queries to display image NavLink elements for mobile
 - Add backend to Contact Page to receive emails
-- Separate practice problems by section, make use of useHistory hook
 - Use a formatting library to make reactions look legit
+- Add more problem data right now it is empty
+- Add Play section for games
 - Have fun :)
