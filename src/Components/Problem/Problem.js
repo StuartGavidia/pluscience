@@ -52,7 +52,7 @@ export default function Problem({problem}){
             <div className="problem-references">
                 <ul>
                     {problem.references.map(reference => {
-                        return <li><a className="problem-references-reference" href={reference} target="_blank">{reference}</a></li>
+                        return <li><a className="problem-references-reference" href={reference} target="_blank" rel="noreferrer">{reference}</a></li>
                     })}
                 </ul>
             </div>
