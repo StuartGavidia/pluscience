@@ -33,10 +33,11 @@
 
 .problem-references {
     background-color: white;
-    height: 5.5rem;
+    height: 7rem;
     width: 50%;
     margin: 0.5rem auto;
     border-radius: 0.1rem;
+    overflow: hidden;
 }
 
 .extend {

@@ -12,26 +12,47 @@ export const data = {
                     background: "You know that atoms are held together by chemical bonds, but did you know that molecules also are attracted to other molecules by a variety of forces? The attractive forces that exist between molecules are called intermolecular forces because they span from one molecule to another. We will use the intermolecular forces between molecules to understand why some are merely gases, others are liquids, and some are downright solid!  We'll apply what we know about intermolecular forces to understand the viscosity and surface tension of liquids. In the end of this chapter, we'll learn how to describe phase changes and use phase diagrams to keep track of which phase of matter each substance is in when pressure and temperature are taken into account.",
                     problemsList: {
                         section1: [
-                        {
-                            problem: 1,
-                            question: "List all the types of IMFs that occur in CH3CF3",
-                            choices: ["Dispersion, Dipole-Dipole, Ion-Dipole", "Dispersion", "Dispersion, Dipole-Dipole", "Dipole-Dipole"],
-                            correct: "Dispersion, Dipole-Dipole",
-                            references: ["https://www.google.com", "yahoo.com"]
-                        }
+                            {
+                                problem: 1,
+                                question: "What are the 4 intermolecular forces?",
+                                choices: ["Dipole-Dipole, Covalent, Hydrogen Bonding, Ionic", "Dispersion, Dipole-Dipole, Hydrogen Bonding, Ion-Dipole", "Dispersion, Dipole-Dipole, Ionic, Hydrogen Bonding", "Dispersion, Dipole-Dipole, Ion-Dipole, Covalent-Dipole"],
+                                correct: "Dispersion, Dipole-Dipole, Hydrogen Bonding, Ion-Dipole",
+                                references: ["https://chem.libretexts.org/Courses/College_of_Marin/CHEM_114%3A_Introductory_Chemistry/12%3A_Liquids%2C_Solids%2C_and_Intermolecular_Forces/12.06%3A_Types_of_Intermolecular_Forces-_Dispersion%2C_Dipole%E2%80%93Dipole%2C_Hydrogen_Bonding%2C_and_Ion-Dipole", "https://www.khanacademy.org/science/biology/chemistry--of-life/chemical-bonds-and-reactions/v/intermolecular-forces-and-molecular-bonds"]
+                            },
+                            {
+                                problem: 2,
+                                question: "List all the types of IMFs that occur in CH3CF3",
+                                choices: ["Dispersion, Dipole-Dipole, Ion-Dipole", "Dispersion", "Dispersion, Dipole-Dipole", "Dipole-Dipole"],
+                                correct: "Dispersion, Dipole-Dipole",
+                                references: ["https://www.youtube.com/watch?v=pPnspQUyYXY"]
+                            },
+                            {
+                                problem: 3,
+                                question: "Rank the following by from lowest to highest anticipated boiling point: C2H4, CH4, Ne, H3COCH3.",
+                                choices: ["Ne < CH4 < C2H2 < H3COCH3", "CH4 < Ne < C2H2 < H3COCH3", "H3COCH3 < C2H2 < CH4 < Ne", "CH4 < Ne < H3COH3 < C2H2"],
+                                correct: "Ne < CH4 < C2H2 < H3COCH3",
+                                references: ["https://www.youtube.com/watch?v=B0gWQQVI9v8"]
+                            }
                         ],
                         section2: [
                             {
-                                problem: 1,
+                                problem: 4,
                                 question: "Which group of species can form hydrogen bonds in its pure form?",
                                 choices: ["CH3OCH3", "KCl, CH3NH2", "C2H6, CH3CH2CH2OH", "CH3NH2, CH3CH2CH2OH"],
                                 correct: "CH3NH2, CH3CH2CH2OH",
-                                references: ["https://www.google.com", "yahoo.com"]
+                                references: ["https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Physical_Properties_of_Matter/Atomic_and_Molecular_Properties/Intermolecular_Forces/Specific_Interactions/Hydrogen_Bonding#:~:text=Any%20molecule%20which%20has%20a,not%20appear%20in%20other%20molecules.", "https://www.youtube.com/watch?v=A8ibQfeNEvE"]
+                            },
+                            {
+                                problem: 5,
+                                question: "Which of the following subtances has the highest boiling point?",
+                                choices: ["HCl", "HBr", "HI"],
+                                correct: "HI",
+                                references: ["https://web.chem.ucsb.edu/~genchem/Chem1CS03/moreinfo/trends_in_boiling_points_.pdf"]
                             }
                         ],
                         section3: [
                             {
-                                problem: 1,
+                                problem: 6,
                                 question: "What is the name of the process from solid to gas?",
                                 choices: ["Melting/Fusion", "Sublimation", "Deposition", "Condensation"],
                                 correct: "Sublimation",
