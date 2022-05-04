@@ -21,5 +21,8 @@ The application should run in a browser
 - Add backend to Contact Page to receive emails
 - Use a formatting library to make reactions look legit
 - Add more problem data right now it is empty
-- Add Play section for games
+- Add Play section for games(flashcard game)
+- Add Dark Mode
+- Add Data for all problems
+- Add Tool page, particularly looking at chemical properties
 - Have fun :)
