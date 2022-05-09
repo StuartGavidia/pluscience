@@ -32,9 +32,7 @@ export const data = {
                                 choices: ["Ne < CH4 < C2H2 < H3COCH3", "CH4 < Ne < C2H2 < H3COCH3", "H3COCH3 < C2H2 < CH4 < Ne", "CH4 < Ne < H3COH3 < C2H2"],
                                 correct: "Ne < CH4 < C2H2 < H3COCH3",
                                 references: ["https://www.youtube.com/watch?v=B0gWQQVI9v8"]
-                            }
-                        ],
-                        section2: [
+                            },
                             {
                                 problem: 4,
                                 question: "Which group of species can form hydrogen bonds in its pure form?",
@@ -50,14 +48,95 @@ export const data = {
                                 references: ["https://web.chem.ucsb.edu/~genchem/Chem1CS03/moreinfo/trends_in_boiling_points_.pdf"]
                             }
                         ],
-                        section3: [
+                        section2: [
                             {
                                 problem: 6,
+                                question: "What is the strongest intermolecular force present in Water(H2O)?",
+                                choices: ["London Dispersion", "Dipole-Dipole", "Hydrogen Bonding", "Ion-Dipole"],
+                                correct: "Hydrogen Bonding",
+                                references: ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Principles_of_Modern_Chemistry_(Oxtoby_et_al.)/Unit_3%3A_The_States_of_Matter/10%3A_Solids_Liquids_and_Phase_Transitions/10.2%3A_Intermolecular_Forces_-_Origins_in_Molecular_Structure"]
+                            },
+                            {
+                                problem: 7,
+                                question: "What is the strongest intermolecular force present in Carbon Tetrachloride(CCl4)?",
+                                choices: ["London Dispersion", "Dipole-Dipole", "Hydrogen Bonding", "Ion-Dipole"],
+                                correct: "London Dispersion",
+                                references: ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Principles_of_Modern_Chemistry_(Oxtoby_et_al.)/Unit_3%3A_The_States_of_Matter/10%3A_Solids_Liquids_and_Phase_Transitions/10.2%3A_Intermolecular_Forces_-_Origins_in_Molecular_Structure"]
+                            },
+                            {
+                                problem: 8,
+                                question: "What is the strongest intermolecular force present in Ammonia(NH3)",
+                                choices: ["London Dispersion", "Dipole-Dipole", "Hydrogen Bonding", "Ion-Dipole"],
+                                correct: "Hydrogen Bonding",
+                                references: ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Principles_of_Modern_Chemistry_(Oxtoby_et_al.)/Unit_3%3A_The_States_of_Matter/10%3A_Solids_Liquids_and_Phase_Transitions/10.2%3A_Intermolecular_Forces_-_Origins_in_Molecular_Structure"]
+                            },
+                            {
+                                problem: 9,
+                                question: "What is the strongest intermolecular force present in Carbon Dioxide(CO2)?",
+                                choices: ["London Dispersion", "Dipole-Dipole", "Hydrogen Bonding", "Ion-Dipole"],
+                                correct: "London Dispersion",
+                                references: ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Principles_of_Modern_Chemistry_(Oxtoby_et_al.)/Unit_3%3A_The_States_of_Matter/10%3A_Solids_Liquids_and_Phase_Transitions/10.2%3A_Intermolecular_Forces_-_Origins_in_Molecular_Structure"]
+                            },
+                            {
+                                problem: 10,
+                                question: "What is the strongest intermolecular force present in Phosphorus Trichloride(PCl3)?",
+                                choices: ["London Dispersion", "Dipole-Dipole", "Hydrogen Bonding", "Ion-Dipole"],
+                                correct: "Dipole-Dipole",
+                                references: ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Principles_of_Modern_Chemistry_(Oxtoby_et_al.)/Unit_3%3A_The_States_of_Matter/10%3A_Solids_Liquids_and_Phase_Transitions/10.2%3A_Intermolecular_Forces_-_Origins_in_Molecular_Structure"]
+                            },
+                            {
+                                problem: 11,
+                                question: "What is the strongest intermolecular force present in Nitrogen Gas(N2)?",
+                                choices: ["London Dispersion", "Dipole-Dipole", "Hydrogen Bonding", "Ion-Dipole"],
+                                correct: "London Dispersion",
+                                references: ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Principles_of_Modern_Chemistry_(Oxtoby_et_al.)/Unit_3%3A_The_States_of_Matter/10%3A_Solids_Liquids_and_Phase_Transitions/10.2%3A_Intermolecular_Forces_-_Origins_in_Molecular_Structure"]
+                            },
+                            {
+                                problem: 12,
+                                question: "What is the strongest intermolecular force present in Ethane(C2H6)?",
+                                choices: ["London Dispersion", "Dipole-Dipole", "Hydrogen Bonding", "Ion-Dipole"],
+                                correct: "London Dispersion",
+                                references: ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Principles_of_Modern_Chemistry_(Oxtoby_et_al.)/Unit_3%3A_The_States_of_Matter/10%3A_Solids_Liquids_and_Phase_Transitions/10.2%3A_Intermolecular_Forces_-_Origins_in_Molecular_Structure"]
+                            },
+                            {
+                                problem: 13,
+                                question: "What is the strongest intermolecular force present in Acetone(CH2O)?",
+                                choices: ["London Dispersion", "Dipole-Dipole", "Hydrogen Bonding", "Ion-Dipole"],
+                                correct: "Dipole-Dipole",
+                                references: ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Principles_of_Modern_Chemistry_(Oxtoby_et_al.)/Unit_3%3A_The_States_of_Matter/10%3A_Solids_Liquids_and_Phase_Transitions/10.2%3A_Intermolecular_Forces_-_Origins_in_Molecular_Structure"]
+                            },
+                            {
+                                problem: 14,
+                                question: "What is the strongest intermolecular force present in Methanol(CH3OH)?",
+                                choices: ["London Dispersion", "Dipole-Dipole", "Hydrogen Bonding", "Ion-Dipole"],
+                                correct: "Hydrogen Bonding",
+                                references: ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Principles_of_Modern_Chemistry_(Oxtoby_et_al.)/Unit_3%3A_The_States_of_Matter/10%3A_Solids_Liquids_and_Phase_Transitions/10.2%3A_Intermolecular_Forces_-_Origins_in_Molecular_Structure"]
+                            },
+                            {
+                                problem: 15,
+                                question: "What is the strongest intermolecular force present in Borane(BH3)?",
+                                choices: ["London Dispersion", "Dipole-Dipole", "Hydrogen Bonding", "Ion-Dipole"],
+                                correct: "Dipole-Dipole",
+                                references: ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Principles_of_Modern_Chemistry_(Oxtoby_et_al.)/Unit_3%3A_The_States_of_Matter/10%3A_Solids_Liquids_and_Phase_Transitions/10.2%3A_Intermolecular_Forces_-_Origins_in_Molecular_Structure"]
+                            },
+                            
+                        ],
+                        section3: [
+                            {
+                                problem: 16,
                                 question: "What is the name of the process from solid to gas?",
                                 choices: ["Melting/Fusion", "Sublimation", "Deposition", "Condensation"],
                                 correct: "Sublimation",
-                                references: ["https://www.google.com", "yahoo.com"]
-                            }
+                                references: ["https://sakai.plu.edu/access/lessonbuilder/item/1870613/group/Spring__22_CHEM_116/Pre-lecture%20Warmup%202%20_How%20IMFs%20affect%20Physical%20Properties_/Phase_Diagrams_Worksheet_KEY.pdf"]
+                            },
+                            {
+                                problem: 17,
+                                question: "Which molecule has the highest boiling point?",
+                                choices: ["CH3OH", "NH3", "H2S", "LiF(aq)"],
+                                correct: "LiF(aq)",
+                                references: ["https://web.chem.ucsb.edu/~genchem/Chem1CS03/moreinfo/trends_in_boiling_points_.pdf"]
+                            },
+
                         ]
                     },
                     conclusion: "Intermolecular forces is an important topic to understand. We can use this knowledge to explain the characteristics of molecules!"
@@ -79,17 +158,122 @@ export const data = {
                             question: "Given the reaction F2(g) + 2ClO2(g) -> 2FClO2(g). What is the rate law for the reaction?",
                             choices: ["k[ClO2]^2", "k[ClO2][F2]", "k[ClO2]^2[F2]", "k[F2][ClO2]"],
                             correct: "k[F2][ClO2]",
-                            references: ["https://www.google.com", "yahoo.com"]
-                        }
+                            references: ["https://opentextbc.ca/chemistry/chapter/12-3-rate-laws/#:~:text=Rate%20laws%20or%20rate%20equations,%5D%20n%20%5B%20C%20%5D%20p%20%E2%80%A6"]  
+                        },
+                        {
+                            problem: 2,
+                            question: "Step 1: 2NO + O2 -> 2NO2 (slow)", 
+                            questionPartTwo: "Step 2: 2NO2 + 2SO2 -> 2NO + SO3 (fast)",
+                            questionPartThree: "Which is the rate determining step",
+                            choices: ["Step 1", "Step 2"],
+                            correct: "Step 1",
+                            references: ["https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Kinetics/03%3A_Rate_Laws/3.02%3A_Reaction_Mechanisms/3.2.03%3A_Rate_Determining_Step#:~:text=Rate%20determining%20step%20is%20the%20slowest%20step%20within%20a%20chemical,happen%20in%20multiple%20elementary%20steps."]
+                        },
+                        {
+                            problem: 3,
+                            question: "Step 1: 2NO + O2 -> 2NO2 (slow)", 
+                            questionPartTwo: "Step 2: 2NO2 + 2SO2 -> 2NO + SO3 (fast)",
+                            questionPartThree: "What is the molecularity of the rate determining step?",
+                            choices: ["Unimolecular", "bimolecular", "termolecular"],
+                            correct: "termolecular",
+                            references: ["https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Supplemental_Modules_(Organic_Chemistry)/Alkyl_Halides/Reactivity_of_Alkyl_Halides/Alkyl_Halide_Reactions/Substitution_and_Elimination_Reactions_of_Alkyl_Halides/SN1_Substitution_Reactions/Molecularity_and_Kinetics#:~:text=The%20molecularity%20of%20a%20reaction,determining%20step%20is%20called%20bimolecular."]
+                        },
+                        {
+                            problem: 4,
+                            question: "Step 1: 2NO + O2 -> 2NO2 (slow)", 
+                            questionPartTwo: "Step 2: 2NO2 + 2SO2 -> 2NO + SO3 (fast)",
+                            questionPartThree: "Identify the catalyst",
+                            choices: ["O2", "NO", "NO2"],
+                            correct: "NO",
+                            references: ["https://www.google.com/search?q=identifying+the+catalyst+chemistry&rlz=1C1ONGR_enUS1000US1000&oq=identifying+the+catalyst+chemistry&aqs=chrome..69i57j33i160l2j33i22i29i30.6088j1j7&sourceid=chrome&ie=UTF-8#kpvalbx=_3Yp4YqK7HZXO0PEPwJeG8Aw30"]
+                        },
+                        {
+                            problem: 5,
+                            question: "Step 1: 2NO + O2 -> 2NO2 (slow)", 
+                            questionPartTwo: "Step 2: 2NO2 + 2SO2 -> 2NO + SO3 (fast)",
+                            questionPartThree: "Identify the intermediate",
+                            choices: ["NO2", "O2", "SO3"],
+                            correct: "NO2",
+                            references: ["https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Kinetics/03%3A_Rate_Laws/3.02%3A_Reaction_Mechanisms/3.2.03%3A_Rate_Determining_Step#:~:text=Rate%20determining%20step%20is%20the%20slowest%20step%20within%20a%20chemical,happen%20in%20multiple%20elementary%20steps."]
+                        },
+                        {
+                            problem: 6,
+                            question: "Step 1: 2NO + O2 -> 2NO2 (slow)", 
+                            questionPartTwo: "Step 2: 2NO2 + 2SO2 -> 2NO + SO3 (fast)",
+                            questionPartThree: "Write the rate law for the reaction",
+                            choices: ["Rate = k[NO2]^2[O2]", "Rate = k[NO2][O2]", "Rate = k[NO]^2[O2]"],
+                            correct: "Rate = k[NO]^2[O2]",
+                            references: ["https://opentextbc.ca/chemistry/chapter/12-3-rate-laws/#:~:text=Rate%20laws%20or%20rate%20equations,%5D%20n%20%5B%20C%20%5D%20p%20%E2%80%A6"]
+                        },
+                        {
+                            problem: 7,
+                            question: "Step 1: 2NO + O2 -> 2NO2 (slow)", 
+                            questionPartTwo: "Step 2: 2NO2 + 2SO2 -> 2NO + SO3 (fast)",
+                            questionPartThree: "What is the overall reaction order?",
+                            choices: [1, 3, 2],
+                            correct: 3,
+                            references: ["https://opentextbc.ca/chemistry/chapter/12-3-rate-laws/#:~:text=The%20overall%20reaction%20order%20is,1%20%2B%201%20%3D%202).&text=describes%20a%20reaction%20that%20is%20first%20order%20in%20H%2B%2C%20first,%E2%88%92%2C%20and%20second%20order%20overall."]
+                        },
                     ],
                     section2: [
                         {
-                            problem: 2,
-                            question: "If the reaction 2HI -> H2 + I2 is second order, which of the following will yield a linear plot?",
-                            choices: ["log[HI] vs time", "[HI]^2 vs time", "ln[HI] vs time", "1/[HI] vs time"],
-                            correct: "ln[HI] vs time",
-                            references: ["https://www.google.com", "yahoo.com"]
-                        }
+                            problem: 8,
+                            question: "What happens when a catalyst is used in a reaction?",
+                            choices: ["increases the activation energy", "lowers the activation energy", "speeds up the reaction", "slows down the reaction"],
+                            correct: "lowers the activation energy",
+                            references: ["https://opentextbc.ca/chemistry/chapter/12-7-catalysis/#:~:text=A%20catalyst%20speeds%20up%20the,is%20regenerated%20in%20the%20process."]
+                        },
+                        {
+                            problem: 3,
+                            question: "What are 4 things that will speed up a chemical reaction?",
+                            choices: ["increased surface area, lower temp, lack of catalyst, higher conc", "increased surface area, higher temp, higher conc, use of catalyst", "decreased surface area, lower temp, lower conc, lack of catalyst"],
+                            correct: "increased surface area, higher temp, higher conc, use of catalyst",
+                            references: ["https://sciencing.com/four-speed-up-chemical-reaction-8539265.html"]
+                        },
+                        {
+                            problem: 3,
+                            question: "What are 4 thingss that will slow a chemical reaction?",
+                            choices: ["decreased surface area, lower temp, lower conc, lack of catalyst", "increased surface area, lower temp, lack of catalyst, higher conc", "increased surface area, higher temp, higher conc, use of catalyst"],
+                            correct: "decreased surface area, lower temp, lower conc, lack of catalyst",
+                            references: ["https://www.pleasantvalleysd.org/cms/lib/CA00000039/Centricity/Domain/5846/5.3%20notes.pdf"]
+                        },
+                        {
+                            problem: 3,
+                            question: "The units of the \"reaction rate\" are ",
+                            choices: ["L / mol s", "L^2 / mol^2 s", "mol / L s", "1 / s"],
+                            correct: "mol / L s",
+                            references: ["https://sciencing.com/four-speed-up-chemical-reaction-8539265.html"]
+                        },
+                        {
+                            problem: 3,
+                            question: "For the reaction 2H2S(g) + O2(g) -> 2S(s) + 2H20(l)",
+                            questionPartTwo: "What can be rightly assumed",
+                            choices: ["The reaction is second-overall", "The rate law is, rate = k[H2S]^2[O2]", "The rate law cannot be determined from the info given"],
+                            correct: "The rate law cannot be determined from the info given",
+                            references: ["https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Kinetics/05%3A_Experimental_Methods/5.02%3A_Methods_of_Determining_Reaction_Order#:~:text=Either%20the%20differential%20rate%20law,second%20order%20in%20each%20reactant."]
+                        },
+                        {
+                            problem: 3,
+                            question: "The reaction A + 2B -> products has the rate law, rate = k[A][B]^3. If the concentration of B is doubled while that of A is unchanged, by what factor will the rate of reaction increase?",
+                            choices: [2, 3, 8, 9],
+                            correct: 8,
+                            references: ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_General_Chemistry_(Petrucci_et_al.)/14%3A_Chemical_Kinetics/14.03%3A_Effect_of_Concentration_on_Reaction_Rates%3A_The_Rate_Law#:~:text=Typically%2C%20reaction%20rates%20decrease%20with,when%20reactant%20concentrations%20are%20increased."]
+                        },
+                        {
+                            problem: 3,
+                            question: "The reaction A + 2B -> products has the rate law, rate = k[A][B]^2. Predict by what factor the rate of reaction will increase when the concentration of A is doubled and the concentratioon of B is also doubled.",
+                            choices: [2, 4, 8, 9],
+                            correct: 8,
+                            references: ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_General_Chemistry_(Petrucci_et_al.)/14%3A_Chemical_Kinetics/14.03%3A_Effect_of_Concentration_on_Reaction_Rates%3A_The_Rate_Law#:~:text=Typically%2C%20reaction%20rates%20decrease%20with,when%20reactant%20concentrations%20are%20increased."]
+                        },
+                        {
+                            problem: 3,
+                            question: "The reaction A + 2B -> products has the rate law, rate = k[A]^2[B]. Predict by what factor the rate of reaction will increase when the concentration of A is doubled, the concentration of B is tripled, and the temperature remains constant",
+                            choices: [6, 12, 18, "none of these"],
+                            correct: 12,
+                            references: ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_General_Chemistry_(Petrucci_et_al.)/14%3A_Chemical_Kinetics/14.03%3A_Effect_of_Concentration_on_Reaction_Rates%3A_The_Rate_Law#:~:text=Typically%2C%20reaction%20rates%20decrease%20with,when%20reactant%20concentrations%20are%20increased."]
+                        },
+
                     ],
                     section3: [
                         {
@@ -97,7 +281,21 @@ export const data = {
                             question: "For the reaction A + 3B -> 2C, how does the rate of disappearance of B compare to the rate of production of C?",
                             choices: ["the rate of disappearance of B is 1/2 the rate of appearance of C", "the rate of disappearance of B is 3/2 the rate of the appearance of C", "the rate of disappearance of B is 2/3 the rate of appearance of C", "the rate of disappearance of B is 1/3 the rate of appearance of C"],
                             correct: "the rate of disappearance of B is 3/2 the rate of the appearance of C",
-                            references: ["https://www.google.com", "yahoo.com"]
+                            references: ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_General_Chemistry_(Petrucci_et_al.)/14%3A_Chemical_Kinetics/14.03%3A_Effect_of_Concentration_on_Reaction_Rates%3A_The_Rate_Law#:~:text=Typically%2C%20reaction%20rates%20decrease%20with,when%20reactant%20concentrations%20are%20increased."]
+                        },
+                        {
+                            problem: 3,
+                            question: "The units for a first-order rate constant are",
+                            choices: ["M / s", "1 / M s", "1 / s", "1 / M^2 s"],
+                            correct: "1 / s",
+                            references: ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_-_The_Central_Science_(Brown_et_al.)/14%3A_Chemical_Kinetics/14.03%3A_Concentration_and_Rates_(Differential_Rate_Laws)#:~:text=The%20rate%20constant%20has%20units,law%20for%20a%20particular%20reaction."]
+                        },
+                        {
+                            problem: 3,
+                            question: "It takes 42.0 min for the concentration of a reactant in a first-order reaction to drop from 0.45M to 0.32M at 25 degrees Celsius. How long will it take for the reaction to be 90% complete?",
+                            choices: ["284min", "13.0min", "86.0min", "137min"],
+                            correct: "284min",
+                            references: ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_-_The_Central_Science_(Brown_et_al.)/14%3A_Chemical_Kinetics/14.04%3A_The_Change_of_Concentration_with_Time_(Integrated_Rate_Laws)"]
                         }
                     ],
                     },
@@ -117,28 +315,101 @@ export const data = {
                         section1: [
                             {
                                 problem: 1,
+                                question: "Which of the following is true for the chemical reaction at equilibrium?",
+                                choices: ["only the forward reaction stops", "only the reverse reaction stops", "both the forward and reverse reactions stop", "the rates of the forward and reverse reactions are equal"],
+                                correct: "the rates of the forward and reverse reactions are equal",
+                                references: ["https://opentextbc.ca/chemistry/chapter/13-1-chemical-equilibria/#:~:text=A%20reaction%20is%20at%20equilibrium,reactants%20by%20the%20reverse%20reaction."]
+                            },
+                            {
+                                problem: 1,
+                                question: "An equilibrium that strongly favors products has",
+                                choices: ["a value of K << 1", "a value of K >> 1", "a value of Q >> 1", "a value of Q << 1"],
+                                correct: "a value of K >> 1",
+                                references: ["https://www.youtube.com/watch?v=xfGlEXWDRZE"]
+                            },
+                            {
+                                problem: 1,
+                                question: "If the reaction quotient Q has a smaller value than the related equilibrium constant, K, ",
+                                choices: ["the reaction is at equilibrium", "the reaction is not at equilibrium, and will make more products at the expense of reactants", "the reaction is not at equilibrium, and will make more reactants at the expense of products", "the value of K will decrease until it is equal to Q"],
+                                correct: "the reaction is not at equilibrium, and will make more products at the expense of reactants",
+                                references: ["https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Equilibria/Chemical_Equilibria/Difference_Between_K_And_Q"]
+                            },
+                            {
+                                problem: 1,
+                                question: "If the reaction quotient Q has a larger value than the related equilibrium constant, K, ",
+                                choices: ["the reaction is at equilibrium", "the reaction is not at equilibrium, and will make more products at the expense of reactants", "the reaction is not at equilibrium, and will make more reactants at the expense of products", "the value of K will decrease until it is equal to Q"],
+                                correct: "the reaction is not at equilibrium, and will make more reactants at the expense of products",
+                                references: ["https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Equilibria/Chemical_Equilibria/Difference_Between_K_And_Q"]
+                            },
+                            
+                        ],
+                        section2: [
+                            {
+                                problem: 1,
                                 question: "For the reaction 2CO(g) + O2(g) -> 2CO2(g), what is the equilibrium expression?",
                                 choices: ["[CO2]^2 / [CO]^2[O2]", "[CO]^2[O2] / [CO2]^2", "[CO2] / [CO]^2[O2]", "[CO2]^2"],
                                 correct: "[CO2]^2 / [CO]^2[O2]",
-                                references: ["https://www.google.com", "yahoo.com"]
-                            }
-                        ],
-                        section2: [
+                                references: ["https://www.chem.purdue.edu/gchelp/howtosolveit/Equilibrium/Writing_Equilibrium_Expressions.htm"]
+                            },
+                            {
+                                problem: 2,
+                                question: "Acetic Acid dissociates in water. If K = 1.80 x 10^-5 and the equilibrium concentrations of acetic acid is 0.09986M, what is the concentration of H+(aq) and C2H3O2-(aq)?",
+                                questionPartTwo: "HC2H3O2(aq) <-> H+(aq) + C2H3O2-(aq)",
+                                choices: ["1.34x10^-3", "1.34x10^-4", "7.34x10^-4"],
+                                correct: "1.34x10^-3",
+                                references: ["https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Equilibria/Le_Chateliers_Principle/Ice_Tables"]
+                            },
                             {
                                 problem: 2,
                                 question: "For the reaction SnO2(s) + 2CO(g) <-> Sn(s) + 2CO2(g) with CO2 = 2.0M and CO = 2.0M. Find K and determine whether the reaction favors products or reactants.",
                                 choices: ["K = 2.0, products", "K = 1.0 products = reactants", "K = 4.0 products", "K = 0.5, reactants"],
                                 correct: "K = 1.0 products = reactants",
-                                references: ["https://www.google.com", "yahoo.com"]
+                                references: ["https://www.chem.purdue.edu/gchelp/howtosolveit/Equilibrium/Calculating_Equilibrium_Constants.htm"]
                             }
                         ],
                         section3: [
                             {
                                 problem: 3,
+                                question: "2A + 4B <-> 4C, K = ?",
+                                questionPartTwo: "Given: A + 2B <-> 2C, K = 10",
+                                choices: [400, 0.20, 100],
+                                correct: 100,
+                                references: ["https://www.chem.purdue.edu/gchelp/howtosolveit/Equilibrium/Equilibrium_Constants_From_Other_Constants.htm"]
+                            },
+                            {
+                                problem: 3,
                                 question: "For the reaction PCl5(g) <-> PCl3(g) + Cl2(g), predict what will happen when the reaction volume is decreased",
                                 choices: ["the reaction will shift towards the reactants", "the reaction will shift towars the products", "the reaction will not be affected", "the reaction will go all the way towards the reactants until completion"],
                                 correct: "the reaction will shift towards the reactants",
-                                references: ["https://www.google.com", "yahoo.com"]
+                                references: ["https://chemed.chem.purdue.edu/genchem/topicreview/bp/ch16/lechat.php"]
+                            },
+                            {
+                                problem: 3,
+                                question: "Which of the following occurs when reactants are added to a chemical reaction in solution or the gas phase at equilibrium?",
+                                choices: ["Q increases, so the equilibrium shifts to produce more products", "Q increases, so the equilibrium shifts to produce more reactants", "Q decreases, so the equilibrium shifts to produce more products", "Q decreases, so the equilibrium shifts to produce more reactants"],
+                                correct: "Q decreases, so the equilibrium shifts to produce more products",
+                                references: ["https://chemed.chem.purdue.edu/genchem/topicreview/bp/ch16/lechat.php"]
+                            },
+                            {
+                                problem: 3,
+                                question: "Which of the following occurs when products are removed to a chemical reaction in solution or the gas phase at equilibrium?",
+                                choices: ["Q increases, so the equilibrium shifts to produce more products", "Q increases, so the equilibrium shifts to produce more reactants", "Q decreases, so the equilibrium shifts to produce more products", "Q decreases, so the equilibrium shifts to produce more reactants"],
+                                correct:  "Q decreases, so the equilibrium shifts to produce more products",
+                                references: ["https://chemed.chem.purdue.edu/genchem/topicreview/bp/ch16/lechat.php"]
+                            },
+                            {
+                                problem: 3,
+                                question: "Increasing the temperature of an exothermic reaction results in ",
+                                choices: ["more products and fewer reactants", "more reactants and fewer products", "more reactants and products", "fewer reactants and products"],
+                                correct: "more reactants and fewer products",
+                                references: ["https://chemed.chem.purdue.edu/genchem/topicreview/bp/ch16/lechat.php"]
+                            },
+                            {
+                                problem: 3,
+                                question: "Increasing the temperature of an endothermic reaction results in ",
+                                choices: ["more products and fewer reactants", "more reactants and fewer products", "more reactants and products", "fewer reactants and products"],
+                                correct: "more products and fewer reactants",
+                                references: ["https://chemed.chem.purdue.edu/genchem/topicreview/bp/ch16/lechat.php"]
                             }
                         ]
                     },
