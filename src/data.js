@@ -497,8 +497,130 @@ export const data = {
                     },
                     conclusion: "Buffers stop acids and bases from drastically changing the pH of a solution!"
                 }
+            },
+            {
+                unit: 19,
+                img: "/Assets/images/chemistry-unit6.jpg",
+                alt: "Entropy represented as particles flying everywhere",
+                name: "Entropy and Gibbs' Free Energy",
+                nameLink: "Entropy&GibbsFreeEnergy",
+                bio: "The disorder of the universe!",
+                practiceProblems: {
+                    background: "In this chapter, we'll build on our newfound knowledge of acid-base chemistry and apply it to three very important and related topics. First, much of the chemistry in your body is BUFFERED when weak acids are combined by their conjugate bases in solution. When both are present together, they buffer the solution so that large changes in pH don't occur as acid or base are added to the solution. In this way, your blood is able to absorb acid or base without throwing the pH of your blood outside its normal range (aka, you don't die by drinking something acidic like lemonade). Second, whenever acids are added to bases, an equivalent number of moles of base are neutralized. Chemists use TITRATIONS like this to determine the unknown concentration of either the acid or the base if they know the concentration and volume of the titrant (the solution being added) and the volume of the solution that is being titrated.  This is a helpful trick that chemists use to know how concentrated a solution is. Third, the concept of an equilibrium constant (K) is the basis for understanding the SOLUBILITY PRODUCT (Ksp), which allows chemists to calculate the concentration of even the most insoluble substances in water.",
+                    problemsList: {
+                        section1: [
+                        {
+                            problem: 1,
+                            question: "If it takes 54 mL of 0.1 M of NaOH to neutralize 125 mL of an HCL solution, what is the concentration of the HCL?",
+                            choices: ["3.99 x 10^-3 M HCl", "4.32 x 10^-2 M HCl", "0.09M HCl", "9.32 x 10^-4 M HCl"],
+                            correct: "4.32 x 10^-2 M HCl",
+                            references: ["https://www.google.com", "yahoo.com"]
+                        }
+                    ],
+                    section2: [
+                        {
+                            problem: 2,
+                            question: "The solubility of magnesium hydroxide (Ksp = 8.0 x 10^-12) in a buffered solution of pH = 11.00 would be",
+                            choices: ["1.0 x 10^-11 M", "8.0 x 10^10 M", "8.0 x 10^-12", "8.0 x 10^-6 M"],
+                            correct: "8.0 x 10^-6 M",
+                            references: ["https://www.google.com", "yahoo.com"]
+                        }
+                    ],
+                    section3: [
+                        {
+                            problem: 3,
+                            question: "A solution of 30mL of 0.1M NH3(aq) has 0.1M HCl added until it reaches an equivalence point. What pH will the solution be at this point?",
+                            choices: [9.44, 3.63, 5.28, 2.11],
+                            correct: 5.28,
+                            references: ["https://www.google.com", "yahoo.com"]
+                        }
+                    ]
+                    },
+                    conclusion: "Buffers stop acids and bases from drastically changing the pH of a solution!"
+                }
+            },
+            {
+                unit: 20,
+                img: "/Assets/images/chemistry-unit7.jpg",
+                alt: "A galvanic cell",
+                name: "Electrochemistry",
+                nameLink: "Electrochemistry",
+                bio: "Spontaneous redox reactions release energy!",
+                practiceProblems: {
+                    background: "In this chapter, we'll build on our newfound knowledge of acid-base chemistry and apply it to three very important and related topics. First, much of the chemistry in your body is BUFFERED when weak acids are combined by their conjugate bases in solution. When both are present together, they buffer the solution so that large changes in pH don't occur as acid or base are added to the solution. In this way, your blood is able to absorb acid or base without throwing the pH of your blood outside its normal range (aka, you don't die by drinking something acidic like lemonade). Second, whenever acids are added to bases, an equivalent number of moles of base are neutralized. Chemists use TITRATIONS like this to determine the unknown concentration of either the acid or the base if they know the concentration and volume of the titrant (the solution being added) and the volume of the solution that is being titrated.  This is a helpful trick that chemists use to know how concentrated a solution is. Third, the concept of an equilibrium constant (K) is the basis for understanding the SOLUBILITY PRODUCT (Ksp), which allows chemists to calculate the concentration of even the most insoluble substances in water.",
+                    problemsList: {
+                        section1: [
+                        {
+                            problem: 1,
+                            question: "If it takes 54 mL of 0.1 M of NaOH to neutralize 125 mL of an HCL solution, what is the concentration of the HCL?",
+                            choices: ["3.99 x 10^-3 M HCl", "4.32 x 10^-2 M HCl", "0.09M HCl", "9.32 x 10^-4 M HCl"],
+                            correct: "4.32 x 10^-2 M HCl",
+                            references: ["https://www.google.com", "yahoo.com"]
+                        }
+                    ],
+                    section2: [
+                        {
+                            problem: 2,
+                            question: "The solubility of magnesium hydroxide (Ksp = 8.0 x 10^-12) in a buffered solution of pH = 11.00 would be",
+                            choices: ["1.0 x 10^-11 M", "8.0 x 10^10 M", "8.0 x 10^-12", "8.0 x 10^-6 M"],
+                            correct: "8.0 x 10^-6 M",
+                            references: ["https://www.google.com", "yahoo.com"]
+                        }
+                    ],
+                    section3: [
+                        {
+                            problem: 3,
+                            question: "A solution of 30mL of 0.1M NH3(aq) has 0.1M HCl added until it reaches an equivalence point. What pH will the solution be at this point?",
+                            choices: [9.44, 3.63, 5.28, 2.11],
+                            correct: 5.28,
+                            references: ["https://www.google.com", "yahoo.com"]
+                        }
+                    ]
+                    },
+                    conclusion: "Buffers stop acids and bases from drastically changing the pH of a solution!"
+                }
+            },
+            {
+                unit: 21,
+                img: "/Assets/images/chemistry-unit8.jpg",
+                alt: "",
+                name: "Nuclear Reactions",
+                nameLink: "NuclearReactions",
+                bio: "Reactions that change the nuclei of an atom are nuclear reactions",
+                practiceProblems: {
+                    background: "In this chapter, we'll build on our newfound knowledge of acid-base chemistry and apply it to three very important and related topics. First, much of the chemistry in your body is BUFFERED when weak acids are combined by their conjugate bases in solution. When both are present together, they buffer the solution so that large changes in pH don't occur as acid or base are added to the solution. In this way, your blood is able to absorb acid or base without throwing the pH of your blood outside its normal range (aka, you don't die by drinking something acidic like lemonade). Second, whenever acids are added to bases, an equivalent number of moles of base are neutralized. Chemists use TITRATIONS like this to determine the unknown concentration of either the acid or the base if they know the concentration and volume of the titrant (the solution being added) and the volume of the solution that is being titrated.  This is a helpful trick that chemists use to know how concentrated a solution is. Third, the concept of an equilibrium constant (K) is the basis for understanding the SOLUBILITY PRODUCT (Ksp), which allows chemists to calculate the concentration of even the most insoluble substances in water.",
+                    problemsList: {
+                        section1: [
+                        {
+                            problem: 1,
+                            question: "If it takes 54 mL of 0.1 M of NaOH to neutralize 125 mL of an HCL solution, what is the concentration of the HCL?",
+                            choices: ["3.99 x 10^-3 M HCl", "4.32 x 10^-2 M HCl", "0.09M HCl", "9.32 x 10^-4 M HCl"],
+                            correct: "4.32 x 10^-2 M HCl",
+                            references: ["https://www.google.com", "yahoo.com"]
+                        }
+                    ],
+                    section2: [
+                        {
+                            problem: 2,
+                            question: "The solubility of magnesium hydroxide (Ksp = 8.0 x 10^-12) in a buffered solution of pH = 11.00 would be",
+                            choices: ["1.0 x 10^-11 M", "8.0 x 10^10 M", "8.0 x 10^-12", "8.0 x 10^-6 M"],
+                            correct: "8.0 x 10^-6 M",
+                            references: ["https://www.google.com", "yahoo.com"]
+                        }
+                    ],
+                    section3: [
+                        {
+                            problem: 3,
+                            question: "A solution of 30mL of 0.1M NH3(aq) has 0.1M HCl added until it reaches an equivalence point. What pH will the solution be at this point?",
+                            choices: [9.44, 3.63, 5.28, 2.11],
+                            correct: 5.28,
+                            references: ["https://www.google.com", "yahoo.com"]
+                        }
+                    ]
+                    },
+                    conclusion: "Buffers stop acids and bases from drastically changing the pH of a solution!"
+                }
             }
-
         ],
 
         description: "Welcome to Chemistry",
