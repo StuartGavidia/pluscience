@@ -1,5 +1,14 @@
 .intro {
-    background-color: whitesmoke;
+    background-color: white;
+    width: 100%;
+    height: 120rem;
+    border-radius: 0.5rem;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.dark-intro {
+    background-color: black;
     width: 100%;
     height: 120rem;
     border-radius: 0.5rem;
@@ -9,6 +18,17 @@
 
 .intro-banner {
     background-image: url("../../../public/Assets/Images/banner.jpg");
+    background-size: cover;
+    height: 40rem;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.dark-intro-banner {
+    background-image: url("../../../public/Assets/Images/dark-banner.jpg");
     background-size: cover;
     height: 40rem;
     width: 100%;
@@ -31,6 +51,17 @@
     height: 30rem;
     background-color: white;
     margin: 2rem auto;
+    color: black;
+}
+
+.dark-intro-information {
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    width: 90%;
+    height: 30rem;
+    background-color: #151c21;
+    margin: 2rem auto;
+    color: white;
 }
 
 .intro-plu {

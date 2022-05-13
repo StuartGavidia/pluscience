@@ -1,14 +1,14 @@
 import React from 'react'
 import './Footer.css'
 
-export default function Footer(){
+export default function Footer({darkMode}){
     return (
-        <div className="footer">
-            <div>
+        <div className={darkMode ? "dark-footer" : "footer"}>
+            <div className="footer-div">
                 <h1>PLU Learn</h1>
             </div>
-            <div>
-                <h1>Enjoy</h1>
+            <div className="footer-div">
+                <h1>Enjoy!</h1>
             </div>
         </div>
     )

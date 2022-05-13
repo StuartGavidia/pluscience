@@ -3,6 +3,7 @@
     width: 16rem;
     position: relative;
     color: white;
+    z-index: 1;
 }
 
 .subject-img {

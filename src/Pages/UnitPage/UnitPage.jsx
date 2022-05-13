@@ -4,7 +4,7 @@ import { useParams, Link } from 'react-router-dom'
 import Unit from '../../Components/Unit/Unit'
 import { data } from "../../data"
 
-export default function UnitPage() {
+export default function UnitPage({darkMode}) {
 
     const { subject } = useParams()
 
@@ -14,7 +14,7 @@ export default function UnitPage() {
     }, [subject])
 
     return (
-        <div className="unitPage">
+        <div className={darkMode ? "dark-unitPage" : "unitPage"}>
             {units.map(currentUnit => <Link className="unitPage-unit" to={`/Learn/Chem/${currentUnit.nameLink}/section1`}><Unit 
                                         unit={currentUnit.unit} 
                                         name={currentUnit.name}

@@ -2,7 +2,18 @@
     display: flex;
     padding: 4rem;
     min-height: 50rem;
+    background-color: whitesmoke;
+    z-index: -1;
 }
+
+.dark-subjects {
+    display: flex;
+    padding: 4rem;
+    min-height: 50rem;
+    background-color: black;
+    z-index: -1;
+}
+
 
 .subjects-link {
     text-decoration: none;

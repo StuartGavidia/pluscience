@@ -1,5 +1,5 @@
 import './App.css';
-import React from 'react'
+import React, { useState } from 'react'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Header from './Components/Header/Header'
 import HomePage from './Pages/HomePage/HomePage'
@@ -11,31 +11,38 @@ import Footer from './Components/Footer/Footer'
 
 function App() {
 
+  const[darkMode, setDarkMode] = useState(false)
+
+    function toggleDark(){
+        setDarkMode(!darkMode)
+        console.log(darkMode)
+    }
+
   //Todo
   //Learn Redux so you can manage the data from within the store
   //For now you are importing data to every component that needs it
 
   return (
     <Router>
-      <Header />
+      <Header toggleDark={toggleDark} darkMode={darkMode}/>
         <Switch>
           <Route exact path="/Learn/:subject/:unit/:section">
-            <ProblemPage />
+            <ProblemPage darkMode={darkMode}/>
           </Route>
           <Route path="/Learn/:subject">
-            <UnitPage />
+            <UnitPage darkMode={darkMode}/>
           </Route>
           <Route path="/Learn">
-            <HomePage />
+            <HomePage darkMode={darkMode}/>
           </Route>
           <Route path="/Contact">
-            <ContactPage />
+            <ContactPage darkMode={darkMode}/>
           </Route>
           <Route path="/">
-            <IntroPage />
+            <IntroPage darkMode={darkMode}/>
           </Route>
         </Switch>
-        <Footer />
+        <Footer darkMode={darkMode}/>
     </Router>
   );
 }

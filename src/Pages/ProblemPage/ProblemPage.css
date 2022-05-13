@@ -5,12 +5,29 @@
     border: 1px solid black
 }
 
+.dark-problemPage {
+    background-color: black;
+    color: black;
+    text-align: center;
+    border: 1px solid black
+}
+
 .problemPage-background {
     height: 18rem;
     border: 1px solid lightblue;
     width: 80%;
     margin: 2rem auto;
     background-color: white;
+    color: black;
+}
+
+.dark-problemPage-background {
+    height: 18rem;
+    border: 1px solid white;
+    width: 80%;
+    margin: 2rem auto;
+    background-color: #151c21;
+    color: white;
 }
 
 .problemPage-conclusion {
@@ -19,6 +36,16 @@
     width: 80%;
     margin: 2rem auto;
     background-color: white;
+    color: black;
+}
+
+.dark-problemPage-conclusion {
+    height: 18rem;
+    border: 1px solid white;
+    width: 80%;
+    margin: 2rem auto;
+    background-color: #151c21;
+    color: white;
 }
 
 .problemPage-switch {

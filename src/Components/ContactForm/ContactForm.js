@@ -3,7 +3,7 @@ import './ContactForm.css'
 import { useState } from 'react'
 
 
-export default function ContactForm({name, setName, email, setEmail, description, setDescription}){
+export default function ContactForm({darkMode, name, setName, email, setEmail, description, setDescription}){
 
     const [results, setResults] = useState([])
 
@@ -37,8 +37,8 @@ export default function ContactForm({name, setName, email, setEmail, description
         }
     }
     return (
-        <div className="contact-form">
-            <div className="contact-form-header">
+        <div className={darkMode ? "dark-contact-form" : "contact-form"}>
+            <div className={darkMode ? "dark-contact-form-header" : "contact-form-header"}>
                 <h1>Contact Us</h1>
             </div>
             <div className="contact-form-container">

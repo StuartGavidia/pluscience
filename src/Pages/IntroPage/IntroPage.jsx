@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import "./IntroPage.css"
 //import { weather } from '../../weather'
 
-export default function IntroPage(){
+export default function IntroPage({darkMode}){
     
     const [weatherData, setWeatherData] = useState();
 
@@ -31,8 +31,8 @@ export default function IntroPage(){
     }, [])
 
     return (
-        <div className="intro">
-            <div className="intro-banner">
+        <div className={darkMode ? "dark-intro" : "intro"}>
+            <div className={darkMode ? "dark-intro-banner" : "intro-banner"}>
                 <div className="intro-banner-text">
                     <h1>PLU Learn</h1>
                     <h2>Start Learning in the Learn Page</h2>
@@ -49,7 +49,7 @@ export default function IntroPage(){
             </div>
             : <h1>Loading</h1>}
             </div>
-            <div className="intro-information">
+            <div className={darkMode ? "dark-intro-information" : "intro-information"}>
                 <h1>Future Updates</h1>
                 <div>
                     <ul>

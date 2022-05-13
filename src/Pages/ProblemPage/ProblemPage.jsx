@@ -4,7 +4,7 @@ import { data } from '../../data'
 import Problem from "../../Components/Problem/Problem"
 import './ProblemPage.css'
 
-export default function ProblemPage(){
+export default function ProblemPage({darkMode}){
 
     const {subject, unit, section} = useParams()
     let history = useHistory();
@@ -44,16 +44,16 @@ export default function ProblemPage(){
 
 
     return (
-        <div className="problemPage">
+        <div className={darkMode ? "dark-problemPage" : "problemPage"}>
             { section === "section1" &&
-                <div className="problemPage-background">
+                <div className={darkMode ? "dark-problemPage-background" : "problemPage-background"}>
                     <h2>Background</h2>
                     <p>{practice.background}</p>
                 </div>
             }
-            {practice.problemsList ? practice.problemsList[section].map(problem => <Problem problem={problem}/>) : <p>Loading</p>}
+            {practice.problemsList ? practice.problemsList[section].map(problem => <Problem problem={problem} darkMode={darkMode}/>) : <p>Loading</p>}
             { section === "section3" &&
-                <div className="problemPage-conclusion">
+                <div className={darkMode ? "dark-problemPage-conclusion" : "problemPage-conclusion"}>
                     <h2>Conclusion</h2>
                     <p>{practice.conclusion}</p>
                 </div>

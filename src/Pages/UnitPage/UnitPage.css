@@ -3,7 +3,19 @@
     flex-wrap: wrap;
     gap: 5rem;
     padding: 3rem;
-    min-height: 30rem
+    min-height: 50rem;
+    z-index: -1;
+    background-color: whitesmoke;
+}
+
+.dark-unitPage {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    padding: 3rem;
+    min-height: 50rem;
+    z-index: -1;
+    background-color: black;
 }
 
 .unitPage-unit {

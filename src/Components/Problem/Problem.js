@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Choice from '../Choice/Choice'
 import "./Problem.css"
 
-export default function Problem({problem}){
+export default function Problem({problem, darkMode}){
 
     const [submit, setSubmit] = useState(false)
 
@@ -41,8 +41,10 @@ export default function Problem({problem}){
         setSubmit(true)
     }
 
+    const dark = darkMode ? "dark" : ""
+
     return (
-        <div className={showReferences ? "problem extend" : "problem"}>
+        <div className={showReferences ? `${dark}problem extend` : `${dark}problem`}>
             <h2 className="problem-title">Problem {problem.problem}</h2>
             <h3 className="problem-question">{problem.question}</h3>
             {problem.questionPartTwo && <h3>{problem.questionPartTwo}</h3>}
