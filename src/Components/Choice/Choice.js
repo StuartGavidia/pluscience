@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Choice.css"
+import ChemicalEquation from '../../helper/ChemicalEquation'
 
 export default function Choice({correct, submitted, choice, toggleSelected}) {
 
@@ -15,6 +16,6 @@ export default function Choice({correct, submitted, choice, toggleSelected}) {
     }
 
     return (
-        <h4 onClick={handleClick} style={styles}>{choice.choice}</h4>
+        <h4 onClick={handleClick} style={styles}>{ChemicalEquation(choice.choice)}</h4>
     )
 }

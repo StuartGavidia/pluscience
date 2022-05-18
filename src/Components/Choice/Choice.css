@@ -3,7 +3,7 @@ h4 {
     font-size: 1rem;
     border: 1px solid black;
     border-radius: 1rem;
-    width: 20rem;
+    width: 30rem;
     height: 3rem;
     color: black;
     margin: 0 auto;
@@ -12,4 +12,23 @@ h4 {
     justify-content: center;
     margin-bottom: 2rem;
     cursor: pointer;
+}
+
+sub { 
+    vertical-align: baseline;
+    position: relative;
+    top: 0.4em;
+}
+
+sup {
+    vertical-align: baseline;
+    position: relative;
+    top: -0.4em;
+}
+
+.supsub {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    vertical-align: middle;
 }
