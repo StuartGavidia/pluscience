@@ -211,7 +211,7 @@ export const data = {
                             questionPartTwo: "Step 02: 02NO2 + 02SO2 -> 02NO + SO3 (fast)",
                             questionPartThree: "What is the overall reaction order?",
                             choices: ["01", "02", "03"],
-                            correct: "3",
+                            correct: "03",
                             references: ["https://opentextbc.ca/chemistry/chapter/12-3-rate-laws/#:~:text=The%20overall%20reaction%20order%20is,1%20%2B%201%20%3D%202).&text=describes%20a%20reaction%20that%20is%20first%20order%20in%20H%2B%2C%20first,%E2%88%92%2C%20and%20second%20order%20overall."]
                         },
                     ],
@@ -280,7 +280,7 @@ export const data = {
                             problem: 16,
                             question: "For the reaction A + 03B -> 02C, how does the rate of disappearance of B compare to the rate of production of C?",
                             choices: ["the rate of disappearance of B is 01/02 the rate of appearance of C", "the rate of disappearance of B is 03/02 the rate of the appearance of C", "the rate of disappearance of B is 02/03 the rate of appearance of C", "the rate of disappearance of B is 01/03 the rate of appearance of C"],
-                            correct: "the rate of disappearance of B is 3/2 the rate of the appearance of C",
+                            correct: "the rate of disappearance of B is 03/02 the rate of the appearance of C",
                             references: ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_General_Chemistry_(Petrucci_et_al.)/14%3A_Chemical_Kinetics/14.03%3A_Effect_of_Concentration_on_Reaction_Rates%3A_The_Rate_Law#:~:text=Typically%2C%20reaction%20rates%20decrease%20with,when%20reactant%20concentrations%20are%20increased."]
                         },
                         {
@@ -363,7 +363,7 @@ export const data = {
                                 problem: 7,
                                 question: "For the reaction SnO2(s) + 02CO(g) <-> Sn(s) + 02CO2(g) with CO2 = 02.00M and CO = 02.00M. Find K and determine whether the reaction favors products or reactants.",
                                 choices: ["K = 02.00, products", "K = 01.00, products = reactants", "K = 04.00, products", "K = 00.05, reactants"],
-                                correct: "K = 01.00 products = reactants",
+                                correct: "K = 01.00, products = reactants",
                                 references: ["https://www.chem.purdue.edu/gchelp/howtosolveit/Equilibrium/Calculating_Equilibrium_Constants.htm"]
                             }
                         ],
@@ -489,7 +489,7 @@ export const data = {
                             question: "HNO2 + H2O -> NO2^-0 + H3O0^+0",
                             questionPartTwo: "What is the base?",
                             choices: ["HNO2", "H2O", "NO2^-", "H3O0^-"],
-                            correct: "H20",
+                            correct: "H2O",
                             references: ["https://www.youtube.com/watch?v=7qBRIWSA3Yc"]
                         },
                         {
@@ -514,7 +514,7 @@ export const data = {
                             problem: 12,
                             question: "What is the pH of 00.02 M lithium acetate if the pKb is 09.03?",
                             choices: ["02.00", "010.04", "03.07", "09.00"],
-                            correct: "09.0",
+                            correct: "09.00",
                             references: ["https://www.google.com/search?q=determinng+pH+with+weak+acids+rice+tabel&oq=determinng+pH+with+weak+acids+rice+tabel&aqs=chrome..69i57j33i10i160l3.10691j1j7&sourceid=chrome&ie=UTF-8#kpvalbx=_uMaBYsXXBuXE0PEPseaC8Ak29", "https://www.youtube.com/watch?v=T679W7VjFAw"]
                         },
                         {
@@ -690,8 +690,8 @@ export const data = {
                             {
                                 problem: 13,
                                 question: "The Ksp of BaSO4 is 01.05 x 010^-39. How many grams of BaSO4 can be dissolved in 01000. liters of solution?",
-                                choices: ["170g", "0.085g", "9.0g", "39g"],
-                                correct: "9.0g",
+                                choices: ["0170g", "00.0085g", "09.00g", "039g"],
+                                correct: "09.00g",
                                 references: ["https://www.sciencegeek.net/APchemistry/APtaters/chap15rev.htm"]
                             }
                         ]
@@ -721,7 +721,7 @@ export const data = {
                             problem: 2,
                             question: "Predict which of the following reactions has a positive entropy change.",
                             choices: ["02N2(g) + O2(g) → 02N2O(g)", "CaCO3(s) → CaO(s) + CO2(g)", " Zn(s) + 02HCl(aq) → ZnCl2(aq) + H2(g)"],
-                            correct: "CaCO3(s) → CaO(s) + CO2(g",
+                            correct: "CaCO3(s) → CaO(s) + CO2(g)",
                             references: ["https://study.com/academy/lesson/predicting-the-entropy-of-physical-and-chemical-changes.html#:~:text=When%20predicting%20whether%20a%20physical,decreased%2C%20Delta%20S%20is%20negative."]
                         },
                         {
@@ -757,7 +757,7 @@ export const data = {
                     section2: [
                         {
                             problem: 7,
-                            question: "What is the equation fofr Gibbs Free Energy?",
+                            question: "What is the equation for Gibbs Free Energy?",
                             choices: ["ΔG = TΔS", "ΔG = ΔH - TΔS", "ΔG = ΔH - ΔS", "ΔG = ΔH + TΔS"],
                             correct: "ΔG = ΔH - TΔS",
                             references: ["https://www.khanacademy.org/science/chemistry/thermodynamics-chemistry/gibbs-free-energy/a/gibbs-free-energy-and-spontaneity"]
