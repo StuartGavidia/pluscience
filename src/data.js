@@ -14,7 +14,7 @@ export const data = {
                         section1: [
                             {
                                 problem: 1,
-                                question: "What are the 4 intermolecular forces?",
+                                question: "What are the 04 intermolecular forces?",
                                 choices: ["Dipole-Dipole, Covalent, Hydrogen Bonding, Ionic", "Dispersion, Dipole-Dipole, Hydrogen Bonding, Ion-Dipole", "Dispersion, Dipole-Dipole, Ionic, Hydrogen Bonding", "Dispersion, Dipole-Dipole, Ion-Dipole, Covalent-Dipole"],
                                 correct: "Dispersion, Dipole-Dipole, Hydrogen Bonding, Ion-Dipole",
                                 references: ["https://chem.libretexts.org/Courses/College_of_Marin/CHEM_114%3A_Introductory_Chemistry/12%3A_Liquids%2C_Solids%2C_and_Intermolecular_Forces/12.06%3A_Types_of_Intermolecular_Forces-_Dispersion%2C_Dipole%E2%80%93Dipole%2C_Hydrogen_Bonding%2C_and_Ion-Dipole", "https://www.khanacademy.org/science/biology/chemistry--of-life/chemical-bonds-and-reactions/v/intermolecular-forces-and-molecular-bonds"]
@@ -155,15 +155,15 @@ export const data = {
                         section1: [
                         {
                             problem: 1,
-                            question: "Given the reaction F2(g) + 2ClO2(g) -> 2FClO2(g). What is the rate law for the reaction?",
+                            question: "Given the reaction F2(g) + 02ClO2(g) -> 02FClO2(g). What is the rate law for the reaction?",
                             choices: ["k[ClO2]32", "k[ClO2][F2]", "k[ClO2]32[F2]", "k[F2][ClO2]"],
                             correct: "k[F2][ClO2]",
                             references: ["https://opentextbc.ca/chemistry/chapter/12-3-rate-laws/#:~:text=Rate%20laws%20or%20rate%20equations,%5D%20n%20%5B%20C%20%5D%20p%20%E2%80%A6"]  
                         },
                         {
                             problem: 2,
-                            question: "Step 1: 2NO + O2 -> 2NO2 (slow)", 
-                            questionPartTwo: "Step 2: 2NO2 + 2SO2 -> 2NO + SO3 (fast)",
+                            question: "Step 01: 02NO + O2 -> 02NO2 (slow)", 
+                            questionPartTwo: "Step 02: 02NO2 + 02SO2 -> 02NO + SO3 (fast)",
                             questionPartThree: "Which is the rate determining step",
                             choices: ["Step 01", "Step 02"],
                             correct: "Step 01",
@@ -171,8 +171,8 @@ export const data = {
                         },
                         {
                             problem: 3,
-                            question: "Step 1: 2NO + O2 -> 2NO2 (slow)", 
-                            questionPartTwo: "Step 2: 2NO2 + 2SO2 -> 2NO + SO3 (fast)",
+                            question: "Step 01: 02NO + O2 -> 02NO2 (slow)", 
+                            questionPartTwo: "Step 02: 02NO2 + 02SO2 -> 02NO + SO3 (fast)",
                             questionPartThree: "What is the molecularity of the rate determining step?",
                             choices: ["Unimolecular", "bimolecular", "termolecular"],
                             correct: "termolecular",
@@ -180,8 +180,8 @@ export const data = {
                         },
                         {
                             problem: 4,
-                            question: "Step 1: 2NO + O2 -> 2NO2 (slow)", 
-                            questionPartTwo: "Step 2: 2NO2 + 2SO2 -> 2NO + SO3 (fast)",
+                            question: "Step 01: 02NO + O2 -> 02NO2 (slow)", 
+                            questionPartTwo: "Step 02: 02NO2 + 02SO2 -> 02NO + SO3 (fast)",
                             questionPartThree: "Identify the catalyst",
                             choices: ["O2", "NO", "NO2"],
                             correct: "NO",
@@ -189,8 +189,8 @@ export const data = {
                         },
                         {
                             problem: 5,
-                            question: "Step 1: 2NO + O2 -> 2NO2 (slow)", 
-                            questionPartTwo: "Step 2: 2NO2 + 2SO2 -> 2NO + SO3 (fast)",
+                            question: "Step 01: 02NO + O2 -> 02NO2 (slow)", 
+                            questionPartTwo: "Step 02: 02NO2 + 02SO2 -> 02NO + SO3 (fast)",
                             questionPartThree: "Identify the intermediate",
                             choices: ["NO2", "O2", "SO3"],
                             correct: "NO2",
@@ -198,8 +198,8 @@ export const data = {
                         },
                         {
                             problem: 6,
-                            question: "Step 1: 2NO + O2 -> 2NO2 (slow)", 
-                            questionPartTwo: "Step 2: 2NO2 + 2SO2 -> 2NO + SO3 (fast)",
+                            question: "Step 01: 02NO + O2 -> 02NO2 (slow)", 
+                            questionPartTwo: "Step 02: 02NO2 + 02SO2 -> 02NO + SO3 (fast)",
                             questionPartThree: "Write the rate law for the reaction",
                             choices: ["Rate = k[NO2]32[O2]", "Rate = k[NO2][O2]", "Rate = k[NO]32[O2]"],
                             correct: "Rate = k[NO]32[O2]",
@@ -207,8 +207,8 @@ export const data = {
                         },
                         {
                             problem: 7,
-                            question: "Step 1: 2NO + O2 -> 2NO2 (slow)", 
-                            questionPartTwo: "Step 2: 2NO2 + 2SO2 -> 2NO + SO3 (fast)",
+                            question: "Step 01: 02NO + O2 -> 02NO2 (slow)", 
+                            questionPartTwo: "Step 02: 02NO2 + 02SO2 -> 02NO + SO3 (fast)",
                             questionPartThree: "What is the overall reaction order?",
                             choices: ["01", "02", "03"],
                             correct: "3",
@@ -225,14 +225,14 @@ export const data = {
                         },
                         {
                             problem: 9,
-                            question: "What are 4 things that will speed up a chemical reaction?",
+                            question: "What are 04 things that will speed up a chemical reaction?",
                             choices: ["increased surface area, lower temp, lack of catalyst, higher conc", "increased surface area, higher temp, higher conc, use of catalyst", "decreased surface area, lower temp, lower conc, lack of catalyst"],
                             correct: "increased surface area, higher temp, higher conc, use of catalyst",
                             references: ["https://sciencing.com/four-speed-up-chemical-reaction-8539265.html"]
                         },
                         {
                             problem: 10,
-                            question: "What are 4 thingss that will slow a chemical reaction?",
+                            question: "What are 04 things that will slow a chemical reaction?",
                             choices: ["decreased surface area, lower temp, lower conc, lack of catalyst", "increased surface area, lower temp, lack of catalyst, higher conc", "increased surface area, higher temp, higher conc, use of catalyst"],
                             correct: "decreased surface area, lower temp, lower conc, lack of catalyst",
                             references: ["https://www.pleasantvalleysd.org/cms/lib/CA00000039/Centricity/Domain/5846/5.3%20notes.pdf"]
@@ -246,7 +246,7 @@ export const data = {
                         },
                         {
                             problem: 12,
-                            question: "For the reaction 2H2S(g) + O2(g) -> 2S(s) + 2H20(l)",
+                            question: "For the reaction 02H2S(g) + O2(g) -> 02S(s) + 02H2O(l)",
                             questionPartTwo: "What can be rightly assumed",
                             choices: ["The reaction is second-overall", "The rate law is, rate = k[H2S]32[O2]", "The rate law cannot be determined from the info given"],
                             correct: "The rate law cannot be determined from the info given",
@@ -254,21 +254,21 @@ export const data = {
                         },
                         {
                             problem: 13,
-                            question: "The reaction A + 2B -> products has the rate law, rate = k[A][B]^3. If the concentration of B is doubled while that of A is unchanged, by what factor will the rate of reaction increase?",
+                            question: "The reaction A + 02B -> products has the rate law, rate = k[A][B]33. If the concentration of B is doubled while that of A is unchanged, by what factor will the rate of reaction increase?",
                             choices: ["02", "03", "08", "09"],
                             correct: "08",
                             references: ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_General_Chemistry_(Petrucci_et_al.)/14%3A_Chemical_Kinetics/14.03%3A_Effect_of_Concentration_on_Reaction_Rates%3A_The_Rate_Law#:~:text=Typically%2C%20reaction%20rates%20decrease%20with,when%20reactant%20concentrations%20are%20increased."]
                         },
                         {
                             problem: 14,
-                            question: "The reaction A + 2B -> products has the rate law, rate = k[A][B]^2. Predict by what factor the rate of reaction will increase when the concentration of A is doubled and the concentratioon of B is also doubled.",
+                            question: "The reaction A + 02B -> products has the rate law, rate = k[A][B]32. Predict by what factor the rate of reaction will increase when the concentration of A is doubled and the concentratioon of B is also doubled.",
                             choices: ["02", "04", "08", "09"],
                             correct: "08",
                             references: ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_General_Chemistry_(Petrucci_et_al.)/14%3A_Chemical_Kinetics/14.03%3A_Effect_of_Concentration_on_Reaction_Rates%3A_The_Rate_Law#:~:text=Typically%2C%20reaction%20rates%20decrease%20with,when%20reactant%20concentrations%20are%20increased."]
                         },
                         {
                             problem: 15,
-                            question: "The reaction A + 2B -> products has the rate law, rate = k[A]^2[B]. Predict by what factor the rate of reaction will increase when the concentration of A is doubled, the concentration of B is tripled, and the temperature remains constant",
+                            question: "The reaction A + 02B -> products has the rate law, rate = k[A]32[B]. Predict by what factor the rate of reaction will increase when the concentration of A is doubled, the concentration of B is tripled, and the temperature remains constant",
                             choices: ["06", "012", "018", "none of these"],
                             correct: "012",
                             references: ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_General_Chemistry_(Petrucci_et_al.)/14%3A_Chemical_Kinetics/14.03%3A_Effect_of_Concentration_on_Reaction_Rates%3A_The_Rate_Law#:~:text=Typically%2C%20reaction%20rates%20decrease%20with,when%20reactant%20concentrations%20are%20increased."]
@@ -278,7 +278,7 @@ export const data = {
                     section3: [
                         {
                             problem: 16,
-                            question: "For the reaction A + 3B -> 2C, how does the rate of disappearance of B compare to the rate of production of C?",
+                            question: "For the reaction A + 03B -> 02C, how does the rate of disappearance of B compare to the rate of production of C?",
                             choices: ["the rate of disappearance of B is 01/02 the rate of appearance of C", "the rate of disappearance of B is 03/02 the rate of the appearance of C", "the rate of disappearance of B is 02/03 the rate of appearance of C", "the rate of disappearance of B is 01/03 the rate of appearance of C"],
                             correct: "the rate of disappearance of B is 3/2 the rate of the appearance of C",
                             references: ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_General_Chemistry_(Petrucci_et_al.)/14%3A_Chemical_Kinetics/14.03%3A_Effect_of_Concentration_on_Reaction_Rates%3A_The_Rate_Law#:~:text=Typically%2C%20reaction%20rates%20decrease%20with,when%20reactant%20concentrations%20are%20increased."]
@@ -292,7 +292,7 @@ export const data = {
                         },
                         {
                             problem: 18,
-                            question: "It takes 42.0 min for the concentration of a reactant in a first-order reaction to drop from 0.45M to 0.32M at 25 degrees Celsius. How long will it take for the reaction to be 90% complete?",
+                            question: "It takes 042.00 min for the concentration of a reactant in a first-order reaction to drop from 00.045M to 00.032M at 025 degrees Celsius. How long will it take for the reaction to be 090% complete?",
                             choices: ["0284min", "013.00min", "086.00min", "0137min"],
                             correct: "0284min",
                             references: ["https://chem.libretexts.org/Bookshelves/General_Chemistry/Map%3A_Chemistry_-_The_Central_Science_(Brown_et_al.)/14%3A_Chemical_Kinetics/14.04%3A_The_Change_of_Concentration_with_Time_(Integrated_Rate_Laws)"]
@@ -346,22 +346,22 @@ export const data = {
                         section2: [
                             {
                                 problem: 5,
-                                question: "For the reaction 2CO(g) + O2(g) -> 2CO2(g), what is the equilibrium expression?",
+                                question: "For the reaction 02CO(g) + O2(g) -> 02CO2(g), what is the equilibrium expression?",
                                 choices: ["[CO2]32 / [CO]32[O2]", "[CO]32[O2] / [CO2]32", "[CO2] / [CO]32[O2]", "[CO2]32"],
                                 correct: "[CO2]32 / [CO]32[O2]",
                                 references: ["https://www.chem.purdue.edu/gchelp/howtosolveit/Equilibrium/Writing_Equilibrium_Expressions.htm"]
                             },
                             {
                                 problem: 6,
-                                question: "Acetic Acid dissociates in water. If K = 1.80 x 10^-5 and the equilibrium concentrations of acetic acid is 0.09986M, what is the concentration of H+(aq) and C2H3O2-(aq)?",
-                                questionPartTwo: "HC2H3O2(aq) <-> H+(aq) + C2H3O2-(aq)",
+                                question: "Acetic Acid dissociates in water. If K = 01.080 x 010^-35 and the equilibrium concentrations of acetic acid is 00.009986M, what is the concentration of H0^+0(aq) and C2H3O2^-0(aq)?",
+                                questionPartTwo: "HC2H3O2(aq) <-> H0^+0(aq) + C2H3O2^-0(aq)",
                                 choices: ["01.034x010^-33", "01.034x010^-34", "07.034x010^-34"],
                                 correct: "01.034x010^-33",
                                 references: ["https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Equilibria/Le_Chateliers_Principle/Ice_Tables"]
                             },
                             {
                                 problem: 7,
-                                question: "For the reaction SnO2(s) + 2CO(g) <-> Sn(s) + 2CO2(g) with CO2 = 2.0M and CO = 2.0M. Find K and determine whether the reaction favors products or reactants.",
+                                question: "For the reaction SnO2(s) + 02CO(g) <-> Sn(s) + 02CO2(g) with CO2 = 02.00M and CO = 02.00M. Find K and determine whether the reaction favors products or reactants.",
                                 choices: ["K = 02.00, products", "K = 01.00, products = reactants", "K = 04.00, products", "K = 00.05, reactants"],
                                 correct: "K = 01.00 products = reactants",
                                 references: ["https://www.chem.purdue.edu/gchelp/howtosolveit/Equilibrium/Calculating_Equilibrium_Constants.htm"]
@@ -370,8 +370,8 @@ export const data = {
                         section3: [
                             {
                                 problem: 8,
-                                question: "2A + 4B <-> 4C, K = ?",
-                                questionPartTwo: "Given: A + 2B <-> 2C, K = 10",
+                                question: "02A + 04B <-> 04C, K = ?",
+                                questionPartTwo: "Given: A + 02B <-> 02C, K = 010",
                                 choices: ["0400", "00.020", "0100"],
                                 correct: "0100",
                                 references: ["https://www.chem.purdue.edu/gchelp/howtosolveit/Equilibrium/Equilibrium_Constants_From_Other_Constants.htm"]
@@ -429,7 +429,7 @@ export const data = {
                         section1: [
                         {
                             problem: 1,
-                            question: "What are the 7 strong acids?",
+                            question: "What are the 07 strong acids?",
                             choices: ["HCl, HBr, HI, HNO3, HSO4, HClO3, HClO4", "HCl, HBr, HI, HF, HSO4, HClO3, HClO4", "HCl, HBr, HI, HNO3, HNO2, HClO3, HClO4", "HCl, HBr, HI, HF, HNO3, HNO2, HSO4"],
                             correct: "HCl, HBr, HI, HNO3, HSO4, HClO3, HClO4",
                             references: ["https://www.turito.com/blog/one-on-one-online-tutoring/list-of-top-strong-acids"]
@@ -478,7 +478,7 @@ export const data = {
                         },
                         {
                             problem: 8,
-                            question: "HNO2 + H2O -> NO2^- + H3O^+",
+                            question: "HNO2 + H2O -> NO2^-0 + H3O0^+",
                             questionPartTwo: "What is the acid?",
                             choices: ["HNO2", "H2O", "NO2^-", "H3O0^-"],
                             correct: "HNO2",
@@ -486,7 +486,7 @@ export const data = {
                         },
                         {
                             problem: 9,
-                            question: "HNO2 + H2O -> NO2^- + H3O^+",
+                            question: "HNO2 + H2O -> NO2^-0 + H3O0^+0",
                             questionPartTwo: "What is the base?",
                             choices: ["HNO2", "H2O", "NO2^-", "H3O0^-"],
                             correct: "H20",
@@ -494,7 +494,7 @@ export const data = {
                         },
                         {
                             problem: 10,
-                            question: "HNO2 + H2O -> NO2^- + H3O^+",
+                            question: "HNO2 + H2O -> NO2^-0 + H3O0^+",
                             questionPartTwo: "What is the conjugate base?",
                             choices: ["HNO2", "H2O", "NO2^-", "H3O0^-"],
                             correct: "NO2^-",
@@ -502,7 +502,7 @@ export const data = {
                         },
                         {
                             problem: 11,
-                            question: "HNO2 + H2O -> NO2^- + H3O^+",
+                            question: "HNO2 + H2O -> NO2^-0 + H3O0^+",
                             questionPartTwo: "What is the conjugate acid?",
                             choices: ["HNO2", "H2O", "NO2^-", "H3O0^-"],
                             correct: "H3O0^-",
@@ -512,42 +512,42 @@ export const data = {
                     section2: [
                         {
                             problem: 12,
-                            question: "What is the pH of 0.2 M lithium acetate if the pKb is 9.3?",
+                            question: "What is the pH of 00.02 M lithium acetate if the pKb is 09.03?",
                             choices: ["02.00", "010.04", "03.07", "09.00"],
                             correct: "09.0",
                             references: ["https://www.google.com/search?q=determinng+pH+with+weak+acids+rice+tabel&oq=determinng+pH+with+weak+acids+rice+tabel&aqs=chrome..69i57j33i10i160l3.10691j1j7&sourceid=chrome&ie=UTF-8#kpvalbx=_uMaBYsXXBuXE0PEPseaC8Ak29", "https://www.youtube.com/watch?v=T679W7VjFAw"]
                         },
                         {
                             problem: 13,
-                            question: "What is the pH of a blood sample with a 7.2 x 10^-8 M of H+?",
+                            question: "What is the pH of a blood sample with a 07.02 x 010^-38 M of H0^+0?",
                             choices: ["08.023", "07.014", "09.022", "06.033"],
                             correct: "07.014",
                             references: ["https://www.youtube.com/watch?v=ghIYaqo0Ycc"]
                         },
                         {
                             problem: 14,
-                            question: "What is the pH of a 0.0235 M HCl solution?",
+                            question: "What is the pH of a 00.00235 M HCl solution?",
                             choices: ["01.06", "03.04", "02.03", "012.04"],
                             correct: "01.06",
                             references: ["https://www.youtube.com/watch?v=bfdbmT27L1c"]
                         },
                         {
                             problem: 15,
-                            question: "What is the pOH of a 0.0235 M HCl solution?",
+                            question: "What is the pOH of a 00.00235 M HCl solution?",
                             choices: ["01.06", "03.04", "02.03", "012.04"],
                             correct: "012.04",
                             references: ["https://www.chem.purdue.edu/gchelp/howtosolveit/Equilibrium/Calculating_pHandpOH.htm"]
                         },
                         {
                             problem: 16,
-                            question: "What is the pH of a 6.50 x 10-3 M KOH solution?",
+                            question: "What is the pH of a 06.050 x 010^-33 M KOH solution?",
                             choices: ["09.04", "03.02", "011.08", "01.01"],
                             correct: "011.08",
                             references: ["https://www.youtube.com/watch?v=iNibHKrZktg"]
                         },
                         {
                             problem: 17,
-                            question: "Lemon Juice has a pH of 2.9. What is the concentration of H+?",
+                            question: "Lemon Juice has a pH of 02.09 ,  What is the concentration of H0^+0?",
                             choices: ["00.00013M", "00.00029M", "00.000032M", "00.04M"],
                             correct: "00.00013M",
                             references: ["https://www.youtube.com/watch?v=ghIYaqo0Ycc"]
@@ -557,28 +557,28 @@ export const data = {
                     section3: [
                         {
                             problem: 18,
-                            question: "What concentration of HOCl (Ka = 3.5 x 10^-8) has the same pH as that of 2.50 x 10^-4 M HNO3?",
+                            question: "What concentration of HOCl (Ka = 03.050 x 010^-38) has the same pH as that of 02.050 x 010^-34 M HNO3?",
                             choices: ["01.08 M", "06.08 x 010^-38 M", "03.093 M", "03.05 x 010^-32 M"],
                             correct: "01.08 M",
                             references: ["https://www.google.com/search?q=determinng+pH+with+weak+acids+rice+tabel&oq=determinng+pH+with+weak+acids+rice+tabel&aqs=chrome..69i57j33i10i160l3.10691j1j7&sourceid=chrome&ie=UTF-8#kpvalbx=_uMaBYsXXBuXE0PEPseaC8Ak29", "https://www.youtube.com/watch?v=T679W7VjFAw"]
                         },
                         {
                             problem: 19,
-                            question: "What is the pH of a 0.20 M solution of sodium acetate? The Ka for acetic acid is 1.8 x 10^–5",
+                            question: "What is the pH of a 00.020 M solution of sodium acetate? The Ka for acetic acid is 01.08 x 010^–35",
                             choices: ["03.04", "09.002", "09.045", "08.077"],
                             correct: "09.002",
                             references: ["https://www.google.com/search?q=determingni+pH+of+a+weak+acid+with+rice+tables&ei=Xs-BYpKyHsit0PEP1P2nuAE&ved=0ahUKEwiS2c7zk-P3AhXIFjQIHdT-CRcQ4dUDCA4&uact=5&oq=determingni+pH+of+a+weak+acid+with+rice+tables&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsANKBAhBGABKBAhGGABQmAVYmAVgtwZoAXABeACAAU6IAU6SAQExmAEAoAEByAEIwAEB&sclient=gws-wiz#kpvalbx=_Yc-BYu-TOtra0PEPtdeIyAc27"]
                         },
                         {
                             problem: 20,
-                            question: "What is the pH of a 0.40 M solution of sodium nitrite, NaNO2? The pKa for nitrous acid (HNO2) is 3.35.",
+                            question: "What is the pH of a 00.040 M solution of sodium nitrite, NaNO2? The pKa for nitrous acid (HNO2) is 03.035.",
                             choices: ["08.048", "09.022", "01.022", "01.047"],
                             correct: "08.048",
                             references: ["https://www.google.com/search?q=determingni+pH+of+a+weak+acid+with+rice+tables&ei=Xs-BYpKyHsit0PEP1P2nuAE&ved=0ahUKEwiS2c7zk-P3AhXIFjQIHdT-CRcQ4dUDCA4&uact=5&oq=determingni+pH+of+a+weak+acid+with+rice+tables&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsANKBAhBGABKBAhGGABQmAVYmAVgtwZoAXABeACAAU6IAU6SAQExmAEAoAEByAEIwAEB&sclient=gws-wiz#kpvalbx=_Yc-BYu-TOtra0PEPtdeIyAc27"]
                         },
                         {
                             problem: 21,
-                            question: "What is the pH of a 0.20 M solution of weak acid jaspersammonium bromide? The Kb value for jaspersamine is 4.0 ×10^–5",
+                            question: "What is the pH of a 00.020 M solution of weak acid jaspersammonium bromide? The Kb value for jaspersamine is 04.00 × 010^–35",
                             choices: ["09.043", "07.066", "02.023", "05.015"],
                             correct: "05.015",
                             references: ["https://www.google.com/search?q=determingni+pH+of+a+weak+acid+with+rice+tables&ei=Xs-BYpKyHsit0PEP1P2nuAE&ved=0ahUKEwiS2c7zk-P3AhXIFjQIHdT-CRcQ4dUDCA4&uact=5&oq=determingni+pH+of+a+weak+acid+with+rice+tables&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsANKBAhBGABKBAhGGABQmAVYmAVgtwZoAXABeACAAU6IAU6SAQExmAEAoAEByAEIwAEB&sclient=gws-wiz#kpvalbx=_Yc-BYu-TOtra0PEPtdeIyAc27"]
@@ -601,42 +601,42 @@ export const data = {
                         section1: [
                             {
                                 problem: 1,
-                                question: "A buffer has a pH of 5.30 and a acetic acid concentration of 0.29M. What is the acetate ion concentration?",
+                                question: "A buffer has a pH of 05.030 and a acetic acid concentration of 00.029M. What is the acetate ion concentration?",
                                 choices: ["03.045", "04.076", "05.033", "02.011"],
                                 correct: "04.076",
                                 references: ["https://www.youtube.com/watch?v=o2DWcHB4wXE", "https://www.youtube.com/watch?v=7QgtdYiWH50"]
                             },
                             {
                                 problem: 2,
-                                question: "What is the base/acid ratio in a buffer containing butyric acid and butyrate ion, if the buffer has a pH of 4.63?",
+                                question: "What is the base/acid ratio in a buffer containing butyric acid and butyrate ion, if the buffer has a pH of 04.063?",
                                 choices: ["base/acid=00.0644", "base/acid=00.0743", "base/acid=01.0574", "base/acid=03.0121"],
                                 correct: "base/acid=00.0644",
                                 references: ["https://www.youtube.com/watch?v=y3vT6FqnJS0", "https://www.youtube.com/watch?v=7QgtdYiWH50"]
                             },
                             {
                                 problem: 3,
-                                question: "What is the base/acid ratio in a buffer containing propionic acid and propionate ion, if the buffer has a pH of 5.29?",
+                                question: "What is the base/acid ratio in a buffer containing propionic acid and propionate ion, if the buffer has a pH of 05.029?",
                                 choices: ["base/acid=03.044", "base/acid=02.054", "base/acid=02.011", "base/acid=03.099"],
                                 correct: "base/acid=02.054",
                                 references: ["https://www.youtube.com/watch?v=y3vT6FqnJS0", "https://www.youtube.com/watch?v=7QgtdYiWH50"]
                             },
                             {
                                 problem: 4,
-                                question: "A buffer solution contains acrylic acid and acrylate ion with concentrations of 0.46M and 1.5M, respectively. What is the pH of the buffer?",
+                                question: "A buffer solution contains acrylic acid and acrylate ion with concentrations of 00.046M and 01.05M, respectively. What is the pH of the buffer?",
                                 choices: ["03.022", "05.043", "04.078", "09.044"],
                                 correct: "04.078",
                                 references: ["https://www.youtube.com/watch?v=o2DWcHB4wXE", "https://www.youtube.com/watch?v=7QgtdYiWH50"]
                             },
                             {
                                 problem: 5,
-                                question: "A buffer solution contains butyric acid and butyrate ion with concentrations of 0.24M and 0.15M, respectively. What is the pH of the buffer?",
+                                question: "A buffer solution contains butyric acid and butyrate ion with concentrations of 00.024M and 00.015M, respectively. What is the pH of the buffer?",
                                 choices: ["04.063", "01.022", "05.067", "05.099"],
                                 correct: "04.063",
                                 references: ["https://www.youtube.com/watch?v=o2DWcHB4wXE", "https://www.youtube.com/watch?v=7QgtdYiWH50"]
                             },
                             {
                                 problem: 6,
-                                question: "A buffer has a pH of 3.91 and a cyanate concentration of 1.9M. What is the cyanic acid concentration?",
+                                question: "A buffer has a pH of 03.091 and a cyanate concentration of 01.09M. What is the cyanic acid concentration?",
                                 choices: ["02.033M", "05.044M", "00.033M", "00.068M"],
                                 correct: "00.068M",
                                 references: ["https://www.youtube.com/watch?v=o2DWcHB4wXE", "https://www.youtube.com/watch?v=7QgtdYiWH50"]
@@ -645,21 +645,21 @@ export const data = {
                         section2: [
                             {
                                 problem: 7,
-                                question: "If it takes 54 mL of 0.1 M NaOH to neutralize 125 mL of an HCl solution, what is the concentration of the HCl? ",
+                                question: "If it takes 054 mL of 00.01 M NaOH to neutralize 0125 mL of an HCl solution, what is the concentration of the HCl? ",
                                 choices: ["04.032 x 010^-32 M", "06.099 x 010^-36 M", "04.099 x 010^-33 M", "05.012 x 010^-34 M"],
                                 correct: "04.032 x 010^-32 M",
                                 references: ["https://sakai.plu.edu/access/lessonbuilder/item/1870555/group/Spring__22_CHEM_116/Pre-lecture%20Warmup%2026%20_Titrations_/TitrationsKEY.pdf"]
                             },
                             {
                                 problem: 8,
-                                question: "If it takes 25 mL of 0.05 M HCl to neutralize 345 mL of NaOH solution, what is the concentration of the NaOH solution? ",
+                                question: "If it takes 025 mL of 00.005 M HCl to neutralize 0345 mL of NaOH solution, what is the concentration of the NaOH solution? ",
                                 choices: ["02.081 x 010^-33 M", "03.062 x 010^-34 M", "03.062 x 010^-33 M", "02.081 x 010^-34 M"],
                                 correct: "03.062 x 010^-33 M",
                                 references: ["https://sakai.plu.edu/access/lessonbuilder/item/1870555/group/Spring__22_CHEM_116/Pre-lecture%20Warmup%2026%20_Titrations_/TitrationsKEY.pdf"]
                             },
                             {
                                 problem: 9,
-                                question: "If it takes 50 mL of 0.5 M KOH solution to completely neutralize 125 mL of sulfuric acid solution (H2SO4), what is the concentration of the H2SO4 solution?",
+                                question: "If it takes 050 mL of 00.05 M KOH solution to completely neutralize 0125 mL of sulfuric acid solution (H2SO4), what is the concentration of the H2SO4 solution?",
                                 choices: ["00.023M", "00.010M", "00.041M", "00.033M"],
                                 correct: "00.010M",
                                 references: ["https://sakai.plu.edu/access/lessonbuilder/item/1870555/group/Spring__22_CHEM_116/Pre-lecture%20Warmup%2026%20_Titrations_/TitrationsKEY.pdf"]
@@ -675,21 +675,21 @@ export const data = {
                             },
                             {
                                 problem: 11,
-                                question: "The solubility of magnesium hydroxide (Ksp = 8.0 x 10−12) in a buffered solution of pH = 11.00 would be",
+                                question: "The solubility of magnesium hydroxide (Ksp = 08.00 x 010^−312) in a buffered solution of pH = 011.00 would be",
                                 choices: ["01.00 x 010^-0 311 M", "08.00 x 010^-0 36 M", "08.00 x 010^-0 312 M" ,"08.00 x 010^-0 311 M"],
                                 correct: "08.00 x 010^-0 36 M",
                                 references: ["https://www.youtube.com/watch?v=QWJW1xzB_EA"]
                             },
                             {
                                 problem: 12,
-                                question: "The solubility of silver sulfide is 8.0 x 10^−17 M. Determine the Ksp of this salt.",
+                                question: "The solubility of silver sulfide is 08.00 x 010^−317 M. Determine the Ksp of this salt.",
                                 choices: ["(016.00 x 010^- 0 317)(08.00 x 010^- 0 317)", "(08.00 x 010^- 0 317)(04.00 x 010^- 0 317)", "(016.00 x 010^- 0 317)32(08.00 x 010^- 0 317)", "(04.00 x 010^- 0 317)32(08.00 x 010^- 0 317)"],
                                 correct: "(016.00 x 010^- 0 317)32(08.00 x 010^- 0 317)",
                                 references: ["https://www.youtube.com/watch?v=yCKfF4ylEfE"]
                             },
                             {
                                 problem: 13,
-                                question: "The Ksp of BaSO4 is 1.5 x 10^-9. How many grams of BaSO4 can be dissolved in 1000. liters of solution?",
+                                question: "The Ksp of BaSO4 is 01.05 x 010^-39. How many grams of BaSO4 can be dissolved in 01000. liters of solution?",
                                 choices: ["170g", "0.085g", "9.0g", "39g"],
                                 correct: "9.0g",
                                 references: ["https://www.sciencegeek.net/APchemistry/APtaters/chap15rev.htm"]
@@ -796,15 +796,15 @@ export const data = {
                         },
                         {
                             problem: 12,
-                            question: "For 2NO2(g) <-> N2O4(g)",
-                            questionPartTwo: "ΔH° is -58.03 kJ and ΔS° is -176.6J/K. What is the value of ΔG° at 298K?",
+                            question: "For 02NO2(g) <-> N2O4(g)",
+                            questionPartTwo: "ΔH° is -058.003 kJ and ΔS° is -0176.06J/K. What is the value of ΔG° at 0298K?",
                             choices: ["–05403 J", "05403 J", "02701 J", "-02701 J"],
                             correct: "–05403 J",
                             references: ["https://www.youtube.com/watch?v=CS3ac_JJ0IA"]
                         },
                         {
                             problem: 13,
-                            question: "For 2NO2(g) <-> N2O4(g)",
+                            question: "For 02NO2(g) <-> N2O4(g)",
                             questionPartTwo: "At what temperature is ΔG° = 0 (assume ΔH° and ΔS° are not temp. dependent).",
                             choices: ["0298.03K", "0234.04K", "0402.04K", "0328.06K"],
                             correct: "0328.06K",
@@ -821,14 +821,14 @@ export const data = {
                         },
                         {
                             problem: 15,
-                            question: "The equilibrium constant for a reaction is 4.33 at 25 degress Celsius. What is the value of \u0394G(kJ/mol) at this temperature?",
+                            question: "The equilibrium constant for a reaction is 04.033 at 025 degress Celsius. What is the value of \u0394G(kJ/mol) at this temperature?",
                             choices: ["-03.06", "05.04" ,"02.03", "-04.02"],
                             correct: "-03.06",
                             references: ["https://chem.libretexts.org/Courses/Grand_Rapids_Community_College/CHM_120_-_Survey_of_General_Chemistry/7%3A_Equilibrium_and_Thermodynamics/7.11%3A_Gibbs_Free_Energy_and_Equilibrium#:~:text=Both%20K%20and%20%CE%94G%C2%B0,favored%20over%20reactants%20at%20equilibrium."]
                         },
                         {
                             problem: 16,
-                            question: "\u0394G is 33.4kJ for a reaction. At 298K what is the value of the equilibrium constant?",
+                            question: "\u0394G is 033.04kJ for a reaction. At 0298K what is the value of the equilibrium constant?",
                             choices: ["0400", "00.0044", "01.04x010^-36", "01.08x010^-33"],
                             correct: "01.04x010^-36",
                             references: ["https://chem.libretexts.org/Courses/Grand_Rapids_Community_College/CHM_120_-_Survey_of_General_Chemistry/7%3A_Equilibrium_and_Thermodynamics/7.11%3A_Gibbs_Free_Energy_and_Equilibrium#:~:text=Both%20K%20and%20%CE%94G%C2%B0,favored%20over%20reactants%20at%20equilibrium."]
@@ -852,7 +852,7 @@ export const data = {
                         {
                             problem: 1,
                             question: "Balance the redox reaction in acid solution",
-                            questionPartTwo: "Mn^2+ + BiO3^- -> MnO4^- + Bi^3+",
+                            questionPartTwo: "Mn32^+ 0 + BiO3^- 0 -> MnO4^- 0 + Bi33^+",
                             choices: ["014H0^+ 0+ 02Mn32^+ 0+ 05BiO3^- 0-> 02MnO4^- 0+ 05Bi33^+ 0+ 07H2O", "04H0^+ 0+ 02Mn32^+ 0+ 05BiO3^- 0-> 02MnO4^- 0+ 05Bi33^+ 0+ 011H2O", "H0^+ 0+ 04Mn32^+ 0+ 08BiO3^- 0-> 04MnO4^- 0+ 08Bi33^+ 0+ 07H2O"],
                             correct: "014H0^+ 0+ 02Mn32^+ 0+ 05BiO3^- 0-> 02MnO4^- 0+ 05Bi33^+ 0+ 07H2O",
                             references: ["https://blog.cambridgecoaching.com/how-to-balance-redox-reactions-in-acidic-and-basic-solutions", "https://www.youtube.com/watch?v=EtOrcKw6wso"]
@@ -860,7 +860,7 @@ export const data = {
                         {
                             problem: 2,
                             question: "Balance the redox reaction in acid solution",
-                            questionPartTwo: "MnO4^- + S2O3^2- -> S4O6^2- + Mn^2+",
+                            questionPartTwo: "MnO4^- 0 + S2O3 32^- 0 -> S4O6 32^- 0 + Mn32^+",
                             choices: ["010H0^+ 0+ 02MnO4^- 0+ 010S2O3 32^- 0-> 02Mn32^+ 0+ 05H2O + 05S4O6 32^-", "016H0^+ 0+ 02MnO4^- 0+ 010S2O3 32^- 0-> 02Mn32^+ 0+ 08H2O + 05S4O6 32^-", "016H0^+ 0+ 04MnO4^- 0+ 010S2O3 32^- 0-> 04Mn32^+ 0+ 08H2O + 05S4O6 32^-"],
                             correct: "016H0^+ 0+ 02MnO4^- 0+ 010S2O3 32^- 0-> 02Mn32^+ 0+ 08H2O + 05S4O6 32^-",
                             references: ["https://blog.cambridgecoaching.com/how-to-balance-redox-reactions-in-acidic-and-basic-solutions", "https://www.youtube.com/watch?v=EtOrcKw6wso"]
@@ -868,7 +868,7 @@ export const data = {
                         {
                             problem: 3,
                             question: "Balance the redox reaction in acid solution",
-                            questionPartTwo: "ClO3^- + Cl^- -> Cl2 + ClO2",
+                            questionPartTwo: "ClO3^- 0 + Cl0^- 0 -> Cl2 + ClO2",
                             choices: ["04H0^+ 0+ 02ClO 3^- 0+ 02Cl0^- 0 -> 02ClO2 + 02H2O + Cl2", "08H0^+ 0+ 02ClO 3^- 0+ 02Cl0^- 0 -> 02ClO2 + 04H2O + Cl2", "04H0^+ 0+ 04ClO 3^- 0+ 02Cl0^- 0 -> 04ClO2 + 02H2O + Cl2"],
                             correct: "04H0^+ 0+ 02ClO 3^- 0+ 02Cl0^- 0 -> 02ClO2 + 02H2O + Cl2",
                             references: ["https://blog.cambridgecoaching.com/how-to-balance-redox-reactions-in-acidic-and-basic-solutions", "https://www.youtube.com/watch?v=EtOrcKw6wso"]
@@ -876,7 +876,7 @@ export const data = {
                         {
                             problem: 4,
                             question: "Balance the redox reaction in base solution",
-                            questionPartTwo: "MnO4^- + C2O4^2- -> MnO2 + CO2",
+                            questionPartTwo: "MnO4^- 0 + C2O4 32^- 0 -> MnO2 + CO2",
                             choices: ["04H2O + 02MnO4^- 0+ 03C2O4 32^- 0 -> 02MnO2 + 08OH0^- 0+ 06CO2", "08H2O + 02MnO4^- 0+ 03C2O4 32^- 0 -> 02MnO2 + 016OH0^- 0+ 06CO2", "04H2O + 010MnO4^- 0+ 03C2O4 32^- 0 -> 010MnO2 + 08OH0^- 0+ 06CO2"],
                             correct: "04H2O + 02MnO4^- 0+ 03C2O4 32^- 0 -> 02MnO2 + 08OH0^- 0+ 06CO2",
                             references: ["https://blog.cambridgecoaching.com/how-to-balance-redox-reactions-in-acidic-and-basic-solutions", "https://www.youtube.com/watch?v=imqYliG5BCU"]
@@ -884,7 +884,7 @@ export const data = {
                         {
                             problem: 5,
                             question: "Balance the redox reaction in base solution",
-                            questionPartTwo: "ClO2 -> ClO2^- + ClO3^-",
+                            questionPartTwo: "ClO2 -> ClO2^- 0 + ClO3^-",
                             choices: ["02OH0^- 0+ 02ClO2 -> ClO2^- 0+ ClO3^- 0+ H2O", "010OH0^- 0+ 02ClO2 -> ClO2^- 0+ ClO3^- 0+ 010H2O", "02OH0^- 0+ 03ClO2 -> ClO2^- 0+ 02ClO3^- 0+ H2O"],
                             correct: "02OH0^- 0+ 02ClO2 -> ClO2^- 0+ ClO3^- 0+ H2O",
                             references: ["https://blog.cambridgecoaching.com/how-to-balance-redox-reactions-in-acidic-and-basic-solutions", "https://www.youtube.com/watch?v=imqYliG5BCU"]
@@ -892,7 +892,7 @@ export const data = {
                         {
                             problem: 6,
                             question: "Balance the redox reaction in base solution",
-                            questionPartTwo: "Cu(NH3)4^2+ + S2O4^2- -> SO3^2- + Cu + NH3",
+                            questionPartTwo: "Cu(NH3)4 32^+ 0 + S2O4 32^- 0 -> SO3 32^- 0 + Cu + NH3",
                             choices: ["Cu(NH3)4 32^+ 0+ S2O4 32^- 0+ 04OH0^- 0-> Cu + 04NH3 + 02SO3 32^- 0+ 02H2O", "02Cu(NH3)4 32^+ 0+ S2O4 32^- 0+ 04OH0^- 0-> 02Cu + 04NH3 + 02SO3 32^- 0+ 02H2O" ,"Cu(NH3)4 32^+ 0+ 04S2O4 32^- 0+ 04OH0^- 0-> Cu + 04NH3 + 08SO3 32^- 0+ 02H2O"],
                             correct: "Cu(NH3)4 32^+ 0+ S2O4 32^- 0+ 04OH0^- 0-> Cu + 04NH3 + 02SO3 32^- 0+ 02H2O",
                             references: ["https://blog.cambridgecoaching.com/how-to-balance-redox-reactions-in-acidic-and-basic-solutions", "https://www.youtube.com/watch?v=imqYliG5BCU"]
@@ -901,30 +901,30 @@ export const data = {
                         section2: [
                             {
                                 problem: 7,
-                                question: "For the reaction Cd(s) + 2Co^3+(aq) -> Cd^2+(aq) + 2Co^2+(aq)",
-                                questionPartOne: "What is the Ecell",
+                                question: "For the reaction Cd(s) + 02Co 33^+0(aq) -> Cd 32^+0(aq) + 02Co 32^+0(aq)",
+                                questionPartTwo: "What is the Ecell",
                                 choices: ["-03.0422", "+05.0307", "+01.0233", "+02.0445"],
                                 correct: "+02.0445",
                                 references: ["https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Introductory_Chemistry_(CK-12)/23%3A_Electrochemistry/23.06%3A_Calculating_Standard_Cell_Potentials#:~:text=The%20overall%20cell%20potential%20can,Step%202%3A%20Solve.&text=Before%20adding%20the%20two%20reactions,must%20be%20multiplied%20by%20two."]
                             },
                             {
                                 problem: 8,
-                                question: "For the reaction 3Fe^2+(aq) -> Fe(s) + 2Fe^3+(aq)",
-                                questionPartOne: "What is the Ecell",
+                                question: "For the reaction 03Fe32^+0(aq) -> Fe(s) + 02Fe33^+0(aq)",
+                                questionPartTwo: "What is the Ecell",
                                 choices: ["02.0333", "-01.0211", "02.0555", "-01.0455"],
                                 correct: "-01.0211",
                                 references: ["https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Introductory_Chemistry_(CK-12)/23%3A_Electrochemistry/23.06%3A_Calculating_Standard_Cell_Potentials#:~:text=The%20overall%20cell%20potential%20can,Step%202%3A%20Solve.&text=Before%20adding%20the%20two%20reactions,must%20be%20multiplied%20by%20two."]
                             },
                             {
                                 problem: 9,
-                                question: "Rank the following species from worst to best oxidizing agent: PbSO4, Na^+, Fe^3+, Cl2 and AgCl.",
+                                question: "Rank the following species from worst to best oxidizing agent: PbSO4, Na0^+0, Fe33^+0, Cl2 and AgCl.",
                                 choices: ["worst PbSO4 , Na0^+ 0, Fe33^+ 0, Cl2 , AgCl best", "worst PbSO4, AgCl, Na0^+ 0, Fe33^+ 0, Cl2, best", "worst Na0^+ 0, PbSO4 , AgCl , Fe33^+ 0, Cl2 , best", "worst Na0^+ 0, Fe33^+ 0, Cl2 , AgCl , PbSO4 best"],
                                 correct: "worst Na0^+ 0, PbSO4 , AgCl , Fe33^+ 0, Cl2 , best",
                                 references: ["https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Supplemental_Modules_(Analytical_Chemistry)/Electrochemistry/Redox_Chemistry/Comparing_Strengths_of_Oxidants_and_Reductants"]
                             },
                             {
                                 problem: 10,
-                                question: "Rank the following species from best to worst reducing agent: Mn^2+, Ni, H2, Al, Hg2^2+",
+                                question: "Rank the following species from best to worst reducing agent: Mn32^+0, Ni, H2, Al, Hg2 32^+",
                                 choices: ["worst Al, H2, Hg2 32^+ 0, Mn32^+ 0, Ni, best", "worst Al, Ni, H2, Hg2 32^+ 0, Mn32^+ 0, best", "worst H2, Hg2 32^+ 0, Mn32^+ 0, Ni, Al, best", "worst H2, Mn32^+ 0, Ni, Al, Hg2 32^+ 0, best"],
                                 correct: "worst Al, Ni, H2, Hg2 32^+ 0, Mn32^+ 0, best",
                                 references: ["https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Supplemental_Modules_(Analytical_Chemistry)/Electrochemistry/Redox_Chemistry/Comparing_Strengths_of_Oxidants_and_Reductants"]
@@ -934,16 +934,16 @@ export const data = {
                         section3: [
                             {
                                 problem: 11,
-                                question: "In a redox reaction 2 electrons are transferred and the Ecell is 2.455V",
-                                questionPartOne: "Calculate \u0394G (kJ/mol)",
+                                question: "In a redox reaction 02 electrons are transferred and the Ecell is 02.0455V",
+                                questionPartTwo: "Calculate \u0394G (kJ/mol)",
                                 choices: ["0200.03", "0473.07", "-0345.03", "-0473.07"],
                                 correct: "-0473.07",
                                 references: ["https://courses.lumenlearning.com/boundless-chemistry/chapter/cell-potentials/#:~:text=In%20a%20galvanic%20cell%2C%20the,is%20nonspontaneous%20(%20electrolytic%20cell).", "https://www.youtube.com/watch?v=Xrzhby7bsJw"]
                             },
                             {
                                 problem: 12,
-                                question: "In a redox reaction 3 electrons are transferred and the Ecell is -0.41V",
-                                questionPartOne: "Calculate \u0394G (kJ/mol)",
+                                question: "In a redox reaction 03 electrons are transferred and the Ecell is -00.041V",
+                                questionPartTwo: "Calculate \u0394G (kJ/mol)",
                                 choices: ["-0321.03", "0118.07", "0121.04", "-0121.04"],
                                 correct: "0118.07",
                                 references: ["https://courses.lumenlearning.com/boundless-chemistry/chapter/cell-potentials/#:~:text=In%20a%20galvanic%20cell%2C%20the,is%20nonspontaneous%20(%20electrolytic%20cell).", "https://www.youtube.com/watch?v=Xrzhby7bsJw"]
@@ -989,28 +989,28 @@ export const data = {
                         section2: [
                             {
                                 problem: 4,
-                                question: "An isotope of cesium (cesium-137) has a half-life of 30 years. If 1.0 g of cesium-137 disintegrates over a period of 90 years, how many g of cesium-137 would remain?",
+                                question: "An isotope of cesium (cesium-0137) has a half-life of 030 years. If 01.00 g of cesium-0137 disintegrates over a period of 090 years, how many g of cesium-0137 would remain?",
                                 choices: ["00.0125g", "00.0250g", "00.0500g", "00.00625g"],
                                 correct: "00.0125g",
                                 references: ["https://opentextbc.ca/introductorychemistry/chapter/half-life/#:~:text=An%20interesting%20and%20useful%20aspect,initial%20amount%20of%20that%20isotope."]
                             },
                             {
                                 problem: 5,
-                                question: "Actinium-226 has a half-life of 29 hours. If 100 mg of actinium-226 disintegrates over a period of 58 hours, how many mg of actinium-226 will remain?",
+                                question: "Actinium-0226 has a half-life of 029 hours. If 0100 mg of actinium-0226 disintegrates over a period of 058 hours, how many mg of actinium-0226 will remain?",
                                 choices: ["06.025mg", "012.05mg", "025mg", "050mg"],
                                 correct: "025mg",
                                 references: ["https://opentextbc.ca/introductorychemistry/chapter/half-life/#:~:text=An%20interesting%20and%20useful%20aspect,initial%20amount%20of%20that%20isotope."]
                             },
                             {
                                 problem: 6,
-                                question: "Selenium-83 has a half-life of 25.0 minutes. How many minutes would it take for a 10.0mg sample to decay and have only 1.25 mg of it remain?",
+                                question: "Selenium-083 has a half-life of 025.00 minutes. How many minutes would it take for a 010.00mg sample to decay and have only 01.025 mg of it remain?",
                                 choices: ["050min", "075min", "0100min", "0125min"],
                                 correct: "075min",
                                 references: ["https://opentextbc.ca/introductorychemistry/chapter/half-life/#:~:text=An%20interesting%20and%20useful%20aspect,initial%20amount%20of%20that%20isotope."]
                             },
                             {
                                 problem: 7,
-                                question: "The half-life of isotope X is 2.0 years. How many years would it take for a 4.0 mg sample of X to decay and have only 0.50 mg of it remain?",
+                                question: "The half-life of isotope X is 02.00 years. How many years would it take for a 04.00 mg sample of X to decay and have only 00.050 mg of it remain?",
                                 choices: ["04yrs", "06yrs", "08yrs", "010yrs"],
                                 correct: "06yrs",
                                 references: ["https://opentextbc.ca/introductorychemistry/chapter/half-life/#:~:text=An%20interesting%20and%20useful%20aspect,initial%20amount%20of%20that%20isotope."]
