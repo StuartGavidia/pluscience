@@ -9,3 +9,18 @@
     background-color: black;
     padding-top: 2.5rem;
 }
+
+.note {
+    background-color: lightcoral;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    width: 80%;
+    height: 2.5rem;
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 0.5rem;
+}
