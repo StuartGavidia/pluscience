@@ -55,7 +55,8 @@ export default function IntroPage({darkMode}){
                     <ul>
                         <li>Adding other subjects</li>
                         <li>Adding Functionality to Contact Page</li>
-                        <li>Add Play section with games</li>
+                        <li>Add Play section</li>
+                        <li>Add tools</li>
                     </ul>
                 </div>
             </div>
