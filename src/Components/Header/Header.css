@@ -1,25 +1,52 @@
+@media only screen and (max-width: 480px){
+
+    .links .desktop-link{
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 480px){
+
+    .links .mobile-link{
+        display: none;
+    }
+
+}
+
+
 .header {
     border-bottom: 0.1px solid white;
 }
 
-.header-nav{
+
+.links {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 4rem;
     height: 5rem;
+}
+
+
+.header-nav{
     background-color: white;
-    align-items: center;
     color: white;
 }
 
 .dark-header-nav{
-    display: flex;
-    justify-content: center;
-    gap: 4rem;
-    height: 5rem;
     background-color: #151c21;
-    align-items: center;
     color: white;
+}
+
+.mobile-active {
+    background-color: rgba(159, 179, 181, 0.3);
+    border-radius: 50%;
+}
+
+.link-img {
+    height: 2.5rem;
+    width: 2.5rem;
 }
 
 .header-link {
@@ -107,3 +134,4 @@
     width: auto;
     height: 70%;
 }
+
