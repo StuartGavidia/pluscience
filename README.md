@@ -17,7 +17,6 @@ The application should run in a browser
 ## Future Updates
 
 - Will extend to other subjects
-- Use media queries to display image NavLink elements for mobile
 - Add backend to Contact Page to receive emails
 - Add Play section for games(flashcard game)
 - Add Tool page, particularly looking at chemical properties
