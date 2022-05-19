@@ -44,7 +44,7 @@ export default function IntroPage({darkMode}){
             <div className="intro-plu-info">
                 <h1>Weather at PLU</h1>
                 <h2>{weatherData.condition.text}</h2>
-                <img src ={weatherData.condition.icon} height="100" width="100" alt={weatherData.condition.text}/>
+                <img className="img-weather" src ={weatherData.condition.icon} alt={weatherData.condition.text}/>
                 <h2>{weatherData.temp_f} degrees Farenheit</h2>
             </div>
             : <h1>Loading</h1>}
