@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-between;
     border-top: 1px solid lightblue;
+    font-size: 1rem;
 }
 
 .dark-footer {

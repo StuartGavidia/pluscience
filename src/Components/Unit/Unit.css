@@ -20,6 +20,7 @@
     margin: 0 auto;
     margin-top: 0.5em;
     text-align: center;
+    font-size: 2rem;
 }
 
 .unit-name {
@@ -27,6 +28,7 @@
     background-color: rgba(255, 255, 255, 0.8);
     margin: 0 auto;
     text-align: center;
+    font-size: 1.2rem;
 }
 
 .unit-bio {
@@ -35,6 +37,7 @@
     border-radius: 0.2rem;
     margin: 0 auto;
     text-align: center;
+    font-size: 1rem;
 }
 
 .mar {

@@ -19,6 +19,7 @@
     margin: 2rem auto;
     background-color: white;
     color: black;
+    font-size: 0.9rem;
 }
 
 .dark-problemPage-background {
@@ -28,6 +29,7 @@
     margin: 2rem auto;
     background-color: #151c21;
     color: white;
+    font-size: 0.9rem;
 }
 
 .problemPage-conclusion {
@@ -37,6 +39,7 @@
     margin: 2rem auto;
     background-color: white;
     color: black;
+    font-size: 0.9rem;
 }
 
 .dark-problemPage-conclusion {
@@ -46,6 +49,7 @@
     margin: 2rem auto;
     background-color: #151c21;
     color: white;
+    font-size: 0.9rem;
 }
 
 .problemPage-switch {

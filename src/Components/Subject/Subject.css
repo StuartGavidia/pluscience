@@ -17,8 +17,10 @@
 .subject-title {
     margin-top: 0;
     margin-left: 0.4rem;
+    font-size: 2rem
 }
 
 .subject-description {
     margin-left: 0.4rem;
+    font-size: 1rem
 }
