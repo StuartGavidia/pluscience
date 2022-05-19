@@ -1,7 +1,7 @@
 .subjects {
     display: flex;
     padding: 4rem;
-    min-height: 50rem;
+    min-height: 65rem;
     background-color: whitesmoke;
     z-index: -1;
 }
