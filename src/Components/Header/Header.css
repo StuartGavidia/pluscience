@@ -1,4 +1,4 @@
-@media only screen and (max-width: 655px){
+@media only screen and (max-width: 480px){
 
     .links .desktop-link{
         display: none;
@@ -6,7 +6,7 @@
 
 }
 
-@media only screen and (min-width: 655px){
+@media only screen and (min-width: 480px){
 
     .links .mobile-link{
         display: none;
@@ -45,8 +45,8 @@
 }
 
 .link-img {
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 3rem;
+    width: 3rem;
 }
 
 .header-link {
