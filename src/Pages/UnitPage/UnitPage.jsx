@@ -15,7 +15,7 @@ export default function UnitPage({darkMode}) {
 
     return (
         <div className={darkMode ? "dark-unitPage" : "unitPage"}>
-            {units.map(currentUnit => <Link className="unitPage-unit" to={`/Learn/Chem/${currentUnit.nameLink}/section1`}><Unit 
+            {units.map((currentUnit, i) => <Link className="unitPage-unit" to={`/Learn/Chem/${currentUnit.nameLink}/section1`} key={i}><Unit 
                                         unit={currentUnit.unit} 
                                         name={currentUnit.name}
                                         bio={currentUnit.bio}

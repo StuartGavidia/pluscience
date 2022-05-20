@@ -10,7 +10,7 @@ export default function HomePage({darkMode}) {
     
     return (
         <div className={darkMode ? "dark-subjects" : "subjects"}>
-            {subjects.map(subject => <Link className="subjects-link" to={`/Learn/${subject}`}><Subject 
+            {subjects.map((subject, i) => <Link className="subjects-link" to={`/Learn/${subject}`} key={i}><Subject 
                                         description={data[subject].description} 
                                         title={subject} 
                                         img={data[subject].img} 

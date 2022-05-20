@@ -52,7 +52,7 @@ export default function Problem({problem, darkMode}){
             <h3 className="problem-question">{ChemicalEquation(problem.question)}</h3>
             {problem.questionPartTwo && <h3 className="problem-question-partTwo">{ChemicalEquation(problem.questionPartTwo)}</h3>}
             {problem.questionPartThree && <h3 className="problem-question-partThree">{ChemicalEquation(problem.questionPartThree)}</h3>}
-            {choices.map(choice => <Choice choice={choice} toggleSelected={toggleSelected} submitted={submit} correct={problem.correct}/>)}
+            {choices.map((choice, i) => <Choice key={i} choice={choice} toggleSelected={toggleSelected} submitted={submit} correct={problem.correct} />)}
             {submit ? <button className="problem-button"  onClick={toggleReferences}>References</button>
             : <button className="problem-button" type="submit" onClick={handleSubmit}>Check Answer</button>
             }

@@ -51,7 +51,7 @@ export default function ProblemPage({darkMode}){
                     <p>{practice.background}</p>
                 </div>
             }
-            {practice.problemsList ? practice.problemsList[section].map(problem => <Problem problem={problem} darkMode={darkMode}/>) : <p>Loading</p>}
+            {practice.problemsList ? practice.problemsList[section].map((problem, i) => <Problem problem={problem} darkMode={darkMode} key={i}/>) : <p>Loading</p>}
             { section === "section3" &&
                 <div className={darkMode ? "dark-problemPage-conclusion" : "problemPage-conclusion"}>
                     <h2>Conclusion</h2>
