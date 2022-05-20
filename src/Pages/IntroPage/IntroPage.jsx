@@ -21,7 +21,6 @@ export default function IntroPage({darkMode}){
         }, netWorkError => {
             console.log(netWorkError)
         }).then(jsonResponse => {
-            console.log(jsonResponse)
             setWeatherData(jsonResponse.current)
         })
     }
