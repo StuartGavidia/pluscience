@@ -10,9 +10,6 @@ export default function ContactPage({darkMode}) {
 
     return (
         <div className={darkMode ? "dark-contact" : "contact"}>
-            <div className="note">
-                <h3>"Note: This Contact Form does not work"</h3>
-            </div>
             <ContactForm 
                 darkMode={darkMode}
                 name={name}

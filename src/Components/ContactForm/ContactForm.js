@@ -1,27 +1,47 @@
 import React from 'react'
 import './ContactForm.css'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 
 export default function ContactForm({darkMode, name, setName, email, setEmail, description, setDescription}){
 
-    const [results, setResults] = useState([])
+    const [results, setResults] = useState({})
+
+    useEffect(() => {
+
+        // send email
+        if(!(Object.keys(results).length === 0)){
+
+            window.Email.send({
+                Host : "smtp.elasticemail.com",
+                Username : "gavidisa@plu.edu",
+                Password : process.env.REACT_APP_KEY,
+                To : 'gavidisa@plu.edu',
+                From : 'gavidisa@plu.edu',
+                Subject : 'name:' + results.name + ' email:' + results.description,
+                Body : results.description
+            }).then(
+              message => alert(message)
+            );
+
+        }
+        console.log(results)
+
+
+    }, [results])
 
     function handleSubmit(e){
 
         e.preventDefault();
 
-        setResults(prev => {
-            return [...prev,
+
+        setResults(
                     {
                         name: name,
                         email: email,
                         description: description
-            }]
-        })
+                    })
 
-        //Note modify to send to my email
-        //first results wont print on first console because setResults is asynchronous
         console.log(results)
 
         setName("")
@@ -63,6 +83,7 @@ export default function ContactForm({darkMode, name, setName, email, setEmail, d
                         onChange={(e) => {
                             setEmail(e.target.value)
                         }}
+                        required
                     />
                     <br/>
                     <textarea 
