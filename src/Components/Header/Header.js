@@ -9,12 +9,12 @@ export default function Header({toggleDark, darkMode}) {
                 <div className="header-darkMode" onClick={toggleDark}>
                     {!darkMode &&
                     <div className="header-darkMode-off">
-                        <img src="/Assets/Images/lightmode.webp" alt="The sun representing light mode"/>
+                        <img src={process.env.PUBLIC_URL + "/Assets/Images/lightmode.webp"} alt="The sun representing light mode"/>
                     </div>
                     }
                     {darkMode &&
                     <div className="header-darkMode-on">
-                        <img src="/Assets/Images/darkmode.webp" alt="A half moon representing dark mode"/>
+                        <img src={process.env.PUBLIC_URL + "/Assets/Images/darkmode.webp"} alt="A half moon representing dark mode"/>
                     </div>
                     }
                 </div>

@@ -3,7 +3,7 @@ export const data = {
         info: [
             {
                 unit: 11,
-                img: "/Assets/images/chemistry-unit1.jpg",
+                img: process.env.PUBLIC_URL + "/Assets/images/chemistry-unit1.jpg",
                 alt: "Molecule in a solution",
                 name: "Intermolecular Forces",
                 nameLink: "IntermolecularForces",
@@ -144,7 +144,7 @@ export const data = {
             },
             {
                 unit: 14,
-                img: "/Assets/images/chemistry-unit3.jpg",
+                img: process.env.PUBLIC_URL + "/Assets/images/chemistry-unit3.jpg",
                 alt: "Two beakers next to each other",
                 name: "Kinetics",
                 nameLink: "Kinetics",
@@ -304,7 +304,7 @@ export const data = {
             },
             {
                 unit: 15,
-                img: "/Assets/images/chemistry-unit2.jpg",
+                img: process.env.PUBLIC_URL + "/Assets/images/chemistry-unit2.jpg",
                 alt: "Dropping reactant into a solution",
                 name: "Chemical Equilibria",
                 nameLink: "ChemicalEquilibria",
@@ -418,7 +418,7 @@ export const data = {
             },
             {
                 unit: 16,
-                img: "/Assets/images/chemistry-unit4.png",
+                img: process.env.PUBLIC_URL + "/Assets/images/chemistry-unit4.png",
                 alt: "Dropping reactant into a solution",
                 name: "Acids and Bases",
                 nameLink: "Acids&Bases",
@@ -590,7 +590,7 @@ export const data = {
             },
             {
                 unit: 17,
-                img: "/Assets/images/chemistry-unit5.png",
+                img: process.env.PUBLIC_URL + "/Assets/images/chemistry-unit5.png",
                 alt: "Dropping reactant into a solution",
                 name: "Buffers and Ksp",
                 nameLink: "Buffers&Ksp",
@@ -701,7 +701,7 @@ export const data = {
             },
             {
                 unit: 19,
-                img: "/Assets/images/chemistry-unit6.jpg",
+                img: process.env.PUBLIC_URL + "/Assets/images/chemistry-unit6.jpg",
                 alt: "Entropy represented as particles flying everywhere",
                 name: "Entropy and Gibbs' Free Energy",
                 nameLink: "Entropy&GibbsFreeEnergy",
@@ -840,7 +840,7 @@ export const data = {
             },
             {
                 unit: 20,
-                img: "/Assets/images/chemistry-unit7.jpg",
+                img: process.env.PUBLIC_URL + "/Assets/images/chemistry-unit7.jpg",
                 alt: "A galvanic cell",
                 name: "Electrochemistry",
                 nameLink: "Electrochemistry",
@@ -955,7 +955,7 @@ export const data = {
             },
             {
                 unit: 21,
-                img: "/Assets/images/chemistry-unit8.jpg",
+                img: process.env.PUBLIC_URL + "/Assets/images/chemistry-unit8.jpg",
                 alt: "",
                 name: "Nuclear Reactions",
                 nameLink: "NuclearReactions",
@@ -1040,7 +1040,7 @@ export const data = {
         ],
 
         description: "Welcome to Chemistry",
-        img: "Assets/Images/chemistry.jpg",
+        img: process.env.PUBLIC_URL + "/Assets/Images/chemistry.jpg",
         alt: "Vials used for Chemistry"
     }
 }
