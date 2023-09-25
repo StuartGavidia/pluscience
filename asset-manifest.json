@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/pluscience/static/css/main.01d03e17.css",
-    "main.js": "/pluscience/static/js/main.57b98e08.js",
+    "main.js": "/pluscience/static/js/main.31bdd3d4.js",
     "static/js/787.76f668ac.chunk.js": "/pluscience/static/js/787.76f668ac.chunk.js",
     "static/media/plu.png": "/pluscience/static/media/plu.e6c2fa5908a91987af18.png",
     "static/media/dark-banner.jpg": "/pluscience/static/media/dark-banner.f11cc8d0970e37c119d3.jpg",
     "static/media/banner.jpg": "/pluscience/static/media/banner.0e0f6cac3d7ffb4c64ec.jpg",
     "index.html": "/pluscience/index.html",
     "main.01d03e17.css.map": "/pluscience/static/css/main.01d03e17.css.map",
-    "main.57b98e08.js.map": "/pluscience/static/js/main.57b98e08.js.map",
+    "main.31bdd3d4.js.map": "/pluscience/static/js/main.31bdd3d4.js.map",
     "787.76f668ac.chunk.js.map": "/pluscience/static/js/787.76f668ac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.01d03e17.css",
-    "static/js/main.57b98e08.js"
+    "static/js/main.31bdd3d4.js"
   ]
 }
